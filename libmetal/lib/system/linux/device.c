@@ -656,8 +656,13 @@ int metal_linux_get_device_property(struct metal_device *device,
 	fd = open(path, flags, mode);
 	if (fd < 0)
 		return -errno;
-	status = read(fd, output, len);
+	if (read(fd, output, len) < 0) {
+		status = -errno;
+		close(fd);
+		return status;
+	}
 
+	status = close(fd);
 	return status < 0 ? -errno : 0;
 }
 
