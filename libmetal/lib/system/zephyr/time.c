@@ -12,7 +12,7 @@
 #include <metal/time.h>
 #include <sys_clock.h>
 
-extern volatile u64_t _sys_clock_tick_count;
+extern volatile uint64_t _sys_clock_tick_count;
 
 unsigned long long metal_get_timestamp(void)
 {
