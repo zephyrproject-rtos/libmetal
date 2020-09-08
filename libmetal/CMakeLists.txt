@@ -3,6 +3,10 @@ if (POLICY CMP0048)
   cmake_policy(SET CMP0048 NEW)
 endif()
 
+if (POLICY CMP0077)
+  cmake_policy(SET CMP0077 NEW)
+endif()
+
 list (APPEND CMAKE_MODULE_PATH
       "${CMAKE_CURRENT_SOURCE_DIR}/cmake"
       "${CMAKE_CURRENT_SOURCE_DIR}/cmake/modules"
