@@ -25,7 +25,7 @@ extern "C" {
 
 static inline void __metal_cache_flush(void *addr, unsigned int len)
 {
-	sys_cache_flush((vaddr_t) addr, len);
+	sys_cache_flush((vaddr_t)(uintptr_t) addr, len);
 }
 
 static inline void __metal_cache_invalidate(void *addr, unsigned int len)
