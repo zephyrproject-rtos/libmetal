@@ -71,7 +71,11 @@ example toolchain file:
     $ cmake <libmetal_source> -DCMAKE_TOOLCHAIN_FILE=<toolchain_file>
     $ make VERBOSE=1 DESTDIR=<libmetal_install> install
 ```
-
+* Note: When building baremetal for Xilinx 2018.3 or earlier environments,
+add -DXILINX_PRE_V2019 to your CMake invocation. This will include the
+xilmem and xilstandalone libraries in your build. These libraries were 
+removed in 2019.1.
+ 
 ### Building for Zephyr
 The [zephyr-libmetal](https://github.com/zephyrproject-rtos/libmetal)
 implements the libmetal for the Zephyr project. It is mainly  a fork of this repository, with some add-ons for integration in the Zephyr project.
