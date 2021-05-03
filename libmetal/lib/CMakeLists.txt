@@ -13,6 +13,7 @@ collect (PROJECT_LIB_HEADERS condition.h)
 collect (PROJECT_LIB_HEADERS config.h)
 collect (PROJECT_LIB_HEADERS cpu.h)
 collect (PROJECT_LIB_HEADERS device.h)
+collect (PROJECT_LIB_HEADERS errno.h)
 collect (PROJECT_LIB_HEADERS dma.h)
 collect (PROJECT_LIB_HEADERS io.h)
 collect (PROJECT_LIB_HEADERS irq.h)
@@ -82,8 +83,8 @@ else (WITH_ZEPHYR)
     endif (PROJECT_EC_FLAGS)
     set_target_properties (${_lib} PROPERTIES
       OUTPUT_NAME       "${PROJECT_NAME}"
-      VERSION           "${PROJECT_VER}"
-      SOVERSION         "${PROJECT_VER_MAJOR}"
+      VERSION           "${PROJECT_VERSION}"
+      SOVERSION         "${PROJECT_VERSION_MAJOR}"
     )
   endif (WITH_SHARED_LIB)
 
