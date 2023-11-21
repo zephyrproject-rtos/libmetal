@@ -100,14 +100,18 @@ using std::atomic_fetch_and_explicit;
 using std::atomic_thread_fence;
 using std::atomic_signal_fence;
 
-#elif defined(HAVE_STDATOMIC_H) && !defined(__CC_ARM) && \
+#elif defined(HAVE_STDATOMIC_H) && !defined(__CC_ARM) && !defined(__arm__) && \
       !defined(__STDC_NO_ATOMICS__)
 # include <stdint.h>
 # include <stdatomic.h>
 #elif defined(__GNUC__)
 # include <metal/compiler/gcc/atomic.h>
 #else
+#if defined(HAVE_PROCESSOR_ATOMIC_H)
 # include <metal/processor/@PROJECT_PROCESSOR@/atomic.h>
+#else
+# include <metal/processor/generic/atomic.h>
+#endif /* defined(HAVE_PROCESSOR_ATOMIC_H) */
 #endif
 
 #endif /* __METAL_ATOMIC__H__ */

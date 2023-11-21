@@ -16,7 +16,7 @@
 
 static inline void metal_cpu_yield(void)
 {
-	metal_wait_usec(1);
+	metal_wait_usec(10);
 }
 
 #endif /* __METAL_HOSTED_CPU__H__ */
