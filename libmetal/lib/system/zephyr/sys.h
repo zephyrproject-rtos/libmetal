@@ -17,7 +17,6 @@
 #define __METAL_ZEPHYR_SYS__H__
 
 #include <stdlib.h>
-#include <zephyr/kernel.h>
 
 #ifdef __cplusplus
 extern "C" {
@@ -39,11 +38,6 @@ struct metal_state {
 	/** Common (system independent) data. */
 	struct metal_common_state common;
 };
-
-static inline void metal_wait_usec(uint32_t usec_to_wait)
-{
-	k_busy_wait(usec_to_wait);
-}
 
 #ifdef __cplusplus
 }
