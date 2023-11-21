@@ -1,5 +1,6 @@
 /*
  * Copyright (c) 2016, Xilinx Inc. and Contributors. All rights reserved.
+ * Copyright (c) 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
  *
  * SPDX-License-Identifier: BSD-3-Clause
  */
@@ -16,7 +17,13 @@
 #ifndef __METAL_FREERTOS_SYS__H__
 #define __METAL_FREERTOS_SYS__H__
 
+#include <metal/errno.h>
+
+#ifdef XLNX_PLATFORM
+#include <metal/system/freertos/xlnx/sys.h>
+#else
 #include "./@PROJECT_MACHINE@/sys.h"
+#endif
 
 #ifdef __cplusplus
 extern "C" {
