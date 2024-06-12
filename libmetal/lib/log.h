@@ -41,25 +41,25 @@ typedef void (*metal_log_handler)(enum metal_log_level level,
  * @param[in]	handler	log message handler.
  * @return	0 on success, or -errno on failure.
  */
-extern void metal_set_log_handler(metal_log_handler handler);
+void metal_set_log_handler(metal_log_handler handler);
 
 /**
  * @brief	Get the current libmetal log handler.
  * @return	Current log handler.
  */
-extern metal_log_handler metal_get_log_handler(void);
+metal_log_handler metal_get_log_handler(void);
 
 /**
  * @brief	Set the level for libmetal logging.
  * @param[in]	level	log message level.
  */
-extern void metal_set_log_level(enum metal_log_level level);
+void metal_set_log_level(enum metal_log_level level);
 
 /**
  * @brief	Get the current level for libmetal logging.
  * @return	Current log level.
  */
-extern enum metal_log_level metal_get_log_level(void);
+enum metal_log_level metal_get_log_level(void);
 
 /**
  * @brief	Default libmetal log handler.  This handler prints libmetal log
@@ -68,8 +68,8 @@ extern enum metal_log_level metal_get_log_level(void);
  * @param[in]	format	log message format string.
  * @return	0 on success, or -errno on failure.
  */
-extern void metal_default_log_handler(enum metal_log_level level,
-				      const char *format, ...);
+void metal_default_log_handler(enum metal_log_level level,
+			       const char *format, ...);
 
 /**
  * @internal
@@ -93,11 +93,11 @@ extern void metal_default_log_handler(enum metal_log_level level,
  *
  * @param	level	Log level.
  * @param	fmt	Format string.
- * @param	args... Variable number of arguments.
+ * @param	... Variable number of arguments.
  */
-#define metal_log(level, fmt, args...) ({				   \
+#define metal_log(level, fmt, ...) ({				   \
 	if (_metal.common.log_handler && level <= _metal.common.log_level) \
-		_metal.common.log_handler(level, metal_fmt(fmt), ##args);  \
+		_metal.common.log_handler(level, metal_fmt(fmt), ## __VA_ARGS__);  \
 })
 
 #define metal_err(fmt, args...) metal_log(METAL_LOG_ERROR, fmt, ##args)
