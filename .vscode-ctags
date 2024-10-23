@@ -1,0 +1,848 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+ATOMIC_FLAG_INIT	libmetal/lib/compiler/gcc/atomic.h	32;"	d
+ATOMIC_VAR_INIT	libmetal/lib/compiler/gcc/atomic.h	33;"	d
+E2BIG	libmetal/lib/compiler/armcc/errno.h	48;"	d
+E2BIG	libmetal/lib/compiler/iar/errno.h	28;"	d
+EACCES	libmetal/lib/compiler/armcc/errno.h	68;"	d
+EACCES	libmetal/lib/compiler/iar/errno.h	34;"	d
+EAGAIN	libmetal/lib/compiler/armcc/errno.h	144;"	d
+EAGAIN	libmetal/lib/compiler/iar/errno.h	54;"	d
+EBADF	libmetal/lib/compiler/armcc/errno.h	56;"	d
+EBADF	libmetal/lib/compiler/iar/errno.h	30;"	d
+EBUSY	libmetal/lib/compiler/armcc/errno.h	80;"	d
+EBUSY	libmetal/lib/compiler/iar/errno.h	37;"	d
+ECHILD	libmetal/lib/compiler/armcc/errno.h	60;"	d
+ECHILD	libmetal/lib/compiler/iar/errno.h	31;"	d
+EDEADLK	libmetal/lib/compiler/armcc/errno.h	64;"	d
+EDEADLK	libmetal/lib/compiler/iar/errno.h	32;"	d
+EEXIST	libmetal/lib/compiler/armcc/errno.h	84;"	d
+EEXIST	libmetal/lib/compiler/iar/errno.h	38;"	d
+EFAULT	libmetal/lib/compiler/armcc/errno.h	72;"	d
+EFAULT	libmetal/lib/compiler/iar/errno.h	35;"	d
+EFBIG	libmetal/lib/compiler/armcc/errno.h	120;"	d
+EFBIG	libmetal/lib/compiler/iar/errno.h	48;"	d
+EINTR	libmetal/lib/compiler/armcc/errno.h	36;"	d
+EINTR	libmetal/lib/compiler/iar/errno.h	25;"	d
+EINVAL	libmetal/lib/compiler/iar/errno.h	43;"	d
+EIO	libmetal/lib/compiler/armcc/errno.h	40;"	d
+EIO	libmetal/lib/compiler/iar/errno.h	26;"	d
+EISDIR	libmetal/lib/compiler/armcc/errno.h	100;"	d
+EISDIR	libmetal/lib/compiler/iar/errno.h	42;"	d
+EMFILE	libmetal/lib/compiler/armcc/errno.h	108;"	d
+EMFILE	libmetal/lib/compiler/iar/errno.h	45;"	d
+EMLINK	libmetal/lib/compiler/armcc/errno.h	136;"	d
+EMLINK	libmetal/lib/compiler/iar/errno.h	52;"	d
+ENFILE	libmetal/lib/compiler/armcc/errno.h	104;"	d
+ENFILE	libmetal/lib/compiler/iar/errno.h	44;"	d
+ENODEV	libmetal/lib/compiler/armcc/errno.h	92;"	d
+ENODEV	libmetal/lib/compiler/iar/errno.h	40;"	d
+ENOENT	libmetal/lib/compiler/armcc/errno.h	28;"	d
+ENOENT	libmetal/lib/compiler/iar/errno.h	23;"	d
+ENOEXEC	libmetal/lib/compiler/armcc/errno.h	52;"	d
+ENOEXEC	libmetal/lib/compiler/iar/errno.h	29;"	d
+ENOMEM	libmetal/lib/compiler/iar/errno.h	33;"	d
+ENOSPC	libmetal/lib/compiler/armcc/errno.h	124;"	d
+ENOSPC	libmetal/lib/compiler/iar/errno.h	49;"	d
+ENOTBLK	libmetal/lib/compiler/armcc/errno.h	76;"	d
+ENOTBLK	libmetal/lib/compiler/iar/errno.h	36;"	d
+ENOTDIR	libmetal/lib/compiler/armcc/errno.h	96;"	d
+ENOTDIR	libmetal/lib/compiler/iar/errno.h	41;"	d
+ENOTTY	libmetal/lib/compiler/armcc/errno.h	112;"	d
+ENOTTY	libmetal/lib/compiler/iar/errno.h	46;"	d
+ENXIO	libmetal/lib/compiler/armcc/errno.h	44;"	d
+ENXIO	libmetal/lib/compiler/iar/errno.h	27;"	d
+EPERM	libmetal/lib/compiler/armcc/errno.h	24;"	d
+EPERM	libmetal/lib/compiler/iar/errno.h	22;"	d
+EPIPE	libmetal/lib/compiler/armcc/errno.h	140;"	d
+EPIPE	libmetal/lib/compiler/iar/errno.h	53;"	d
+EROFS	libmetal/lib/compiler/armcc/errno.h	132;"	d
+EROFS	libmetal/lib/compiler/iar/errno.h	51;"	d
+ESPIPE	libmetal/lib/compiler/armcc/errno.h	128;"	d
+ESPIPE	libmetal/lib/compiler/iar/errno.h	50;"	d
+ESRCH	libmetal/lib/compiler/armcc/errno.h	32;"	d
+ESRCH	libmetal/lib/compiler/iar/errno.h	24;"	d
+ETXTBSY	libmetal/lib/compiler/armcc/errno.h	116;"	d
+ETXTBSY	libmetal/lib/compiler/iar/errno.h	47;"	d
+EXDEV	libmetal/lib/compiler/armcc/errno.h	88;"	d
+EXDEV	libmetal/lib/compiler/iar/errno.h	39;"	d
+GB	libmetal/lib/utilities.h	33;"	d
+LIBMETAL_ERR_BASE	libmetal/lib/compiler/armcc/errno.h	21;"	d
+LIBMETAL_ERR_BASE	libmetal/lib/compiler/iar/errno.h	20;"	d
+MAX_DRIVERS	libmetal/lib/system/linux/device.c	17;"	d	file:
+MAX_IRQS	libmetal/lib/system/freertos/xlnx/irq.c	22;"	d	file:
+MAX_IRQS	libmetal/lib/system/generic/xlnx/irq.c	22;"	d	file:
+MAX_IRQS	libmetal/lib/system/generic/xlnx/irq.c	24;"	d	file:
+MAX_IRQS	libmetal/lib/system/linux/irq.c	31;"	d	file:
+MAX_PAGE_SIZES	libmetal/lib/system/linux/sys.h	47;"	d
+MB	libmetal/lib/utilities.h	29;"	d
+METAL_BAD_IRQ	libmetal/lib/sys.h	45;"	d
+METAL_BAD_OFFSET	libmetal/lib/sys.h	36;"	d
+METAL_BAD_PHYS	libmetal/lib/sys.h	39;"	d
+METAL_BAD_VA	libmetal/lib/sys.h	42;"	d
+METAL_BITS_PER_ULONG	libmetal/lib/utilities.h	83;"	d
+METAL_CONDITION_INIT	libmetal/lib/system/freertos/condition.h	36;"	d
+METAL_CONDITION_INIT	libmetal/lib/system/generic/condition.h	40;"	d
+METAL_CONDITION_INIT	libmetal/lib/system/linux/condition.h	43;"	d
+METAL_CONDITION_INIT	libmetal/lib/system/nuttx/condition.h	30;"	d
+METAL_CONDITION_INIT	libmetal/lib/system/zephyr/condition.h	40;"	d
+METAL_DECLARE_LIST	libmetal/lib/list.h	39;"	d
+METAL_DMA_DEV_R	libmetal/lib/dma.h	26;"	d
+METAL_DMA_DEV_W	libmetal/lib/dma.h	27;"	d
+METAL_DMA_DEV_WR	libmetal/lib/dma.h	28;"	d
+METAL_INIT_DEFAULTS	libmetal/lib/sys.h	88;"	d
+METAL_INIT_DEFAULTS	libmetal/lib/system/nuttx/sys.h	23;"	d
+METAL_INIT_DEFAULTS	libmetal/lib/system/zephyr/sys.h	26;"	d
+METAL_INIT_LIST	libmetal/lib/list.h	34;"	d
+METAL_INVALID_VADDR	libmetal/lib/system/linux/sys.h	46;"	d
+METAL_IRQ_ANY	libmetal/lib/irq_controller.h	28;"	d
+METAL_IRQ_CONTROLLER_DECLARE	libmetal/lib/irq_controller.h	80;"	d
+METAL_IRQ_DISABLE	libmetal/lib/irq_controller.h	33;"	d
+METAL_IRQ_ENABLE	libmetal/lib/irq_controller.h	34;"	d
+METAL_IRQ_HANDLED	libmetal/lib/irq.h	28;"	d
+METAL_IRQ_NOT_HANDLED	libmetal/lib/irq.h	27;"	d
+METAL_LOG_ALERT	libmetal/lib/log.h	/^	METAL_LOG_ALERT,	\/**< action must be taken immediately. *\/$/;"	e	enum:metal_log_level
+METAL_LOG_CRITICAL	libmetal/lib/log.h	/^	METAL_LOG_CRITICAL,	\/**< critical conditions.              *\/$/;"	e	enum:metal_log_level
+METAL_LOG_DEBUG	libmetal/lib/log.h	/^	METAL_LOG_DEBUG,	\/**< debug-level messages.             *\/$/;"	e	enum:metal_log_level
+METAL_LOG_EMERGENCY	libmetal/lib/log.h	/^	METAL_LOG_EMERGENCY,	\/**< system is unusable.               *\/$/;"	e	enum:metal_log_level
+METAL_LOG_ERROR	libmetal/lib/log.h	/^	METAL_LOG_ERROR,	\/**< error conditions.                 *\/$/;"	e	enum:metal_log_level
+METAL_LOG_INFO	libmetal/lib/log.h	/^	METAL_LOG_INFO,		\/**< informational messages.           *\/$/;"	e	enum:metal_log_level
+METAL_LOG_NOTICE	libmetal/lib/log.h	/^	METAL_LOG_NOTICE,	\/**< normal but significant condition. *\/$/;"	e	enum:metal_log_level
+METAL_LOG_WARNING	libmetal/lib/log.h	/^	METAL_LOG_WARNING,	\/**< warning conditions.               *\/$/;"	e	enum:metal_log_level
+METAL_MACHINE	libmetal/lib/config.h	40;"	d
+METAL_MACHINE_	libmetal/lib/config.h	41;"	d
+METAL_MAX_DEVICE_REGIONS	libmetal/lib/device.h	30;"	d
+METAL_MAX_DEVICE_REGIONS	libmetal/lib/system/freertos/sys.h	33;"	d
+METAL_MAX_DEVICE_REGIONS	libmetal/lib/system/generic/sys.h	37;"	d
+METAL_MAX_DEVICE_REGIONS	libmetal/lib/system/zephyr/sys.h	33;"	d
+METAL_MUTEX_DEFINE	libmetal/lib/system/freertos/mutex.h	36;"	d
+METAL_MUTEX_DEFINE	libmetal/lib/system/generic/mutex.h	41;"	d
+METAL_MUTEX_DEFINE	libmetal/lib/system/linux/mutex.h	42;"	d
+METAL_MUTEX_DEFINE	libmetal/lib/system/nuttx/mutex.h	36;"	d
+METAL_MUTEX_DEFINE	libmetal/lib/system/zephyr/mutex.h	37;"	d
+METAL_MUTEX_INIT	libmetal/lib/system/generic/mutex.h	36;"	d
+METAL_MUTEX_INIT	libmetal/lib/system/linux/mutex.h	37;"	d
+METAL_MUTEX_INIT	libmetal/lib/system/nuttx/mutex.h	31;"	d
+METAL_MUTEX_INIT	libmetal/lib/system/zephyr/mutex.h	32;"	d
+METAL_MUTEX_LOCKED	libmetal/lib/system/generic/mutex.h	30;"	d
+METAL_MUTEX_UNLOCKED	libmetal/lib/system/generic/mutex.h	29;"	d
+METAL_PACKED_BEGIN	libmetal/lib/compiler/gcc/compiler.h	34;"	d
+METAL_PACKED_BEGIN	libmetal/lib/compiler/iar/compiler.h	24;"	d
+METAL_PACKED_END	libmetal/lib/compiler/gcc/compiler.h	35;"	d
+METAL_PACKED_END	libmetal/lib/compiler/iar/compiler.h	25;"	d
+METAL_PROCESSOR	libmetal/lib/config.h	36;"	d
+METAL_PROCESSOR_	libmetal/lib/config.h	37;"	d
+METAL_SOFTIRQ_ARRAY_DECLARE	libmetal/lib/softirq.c	19;"	d	file:
+METAL_SOFTIRQ_NUM	libmetal/lib/softirq.c	17;"	d	file:
+METAL_SPINLOCK_INIT	libmetal/lib/spinlock.h	31;"	d
+METAL_SYSTEM	libmetal/lib/config.h	32;"	d
+METAL_SYSTEM_	libmetal/lib/config.h	33;"	d
+METAL_VER	libmetal/lib/config.h	29;"	d
+METAL_VER_MAJOR	libmetal/lib/config.h	20;"	d
+METAL_VER_MINOR	libmetal/lib/config.h	23;"	d
+METAL_VER_PATCH	libmetal/lib/config.h	26;"	d
+MSR_IE	libmetal/lib/system/generic/xlnx/microblaze_generic/sys.c	19;"	d	file:
+NO_ATOMIC_64_SUPPORT	libmetal/lib/io.h	34;"	d
+NS_PER_S	libmetal/lib/system/linux/time.c	16;"	d	file:
+XLNX_MAXIRQS	libmetal/lib/system/freertos/xlnx/sys.h	32;"	d
+XLNX_MAXIRQS	libmetal/lib/system/generic/xlnx/sys.h	39;"	d
+XPAR_SCUGIC_0_DIST_BASEADDR	libmetal/lib/system/freertos/xlnx/sys.h	28;"	d
+XPAR_SCUGIC_0_DIST_BASEADDR	libmetal/lib/system/generic/xlnx/sys.h	43;"	d
+__METAL_AARCH64_CPU__H__	libmetal/lib/processor/aarch64/cpu.h	13;"	d
+__METAL_ALLOC__H__	libmetal/lib/alloc.h	13;"	d
+__METAL_ARMCC_ERRNO__H__	libmetal/lib/compiler/armcc/errno.h	13;"	d
+__METAL_ASSERT__H__	libmetal/lib/assert.h	13;"	d
+__METAL_ATOMIC__H__	libmetal/lib/atomic.h	13;"	d
+__METAL_BUS__H__	libmetal/lib/device.h	13;"	d
+__METAL_CACHE__H__	libmetal/lib/cache.h	13;"	d
+__METAL_CEVA_CPU__H__	libmetal/lib/processor/ceva/cpu.h	13;"	d
+__METAL_COMPILER__H__	libmetal/lib/compiler.h	13;"	d
+__METAL_CONDITION__H__	libmetal/lib/condition.h	13;"	d
+__METAL_CONFIG__H__	libmetal/lib/config.h	13;"	d
+__METAL_CPU__H__	libmetal/lib/cpu.h	13;"	d
+__METAL_DMA__H__	libmetal/lib/dma.h	13;"	d
+__METAL_ERRNO__H__	libmetal/lib/errno.h	13;"	d
+__METAL_FREEROTS_IO__H__	libmetal/lib/system/freertos/io.h	17;"	d
+__METAL_FREERTOS_ALLOC__H__	libmetal/lib/system/freertos/alloc.h	17;"	d
+__METAL_FREERTOS_ASSERT__H__	libmetal/lib/system/freertos/assert.h	16;"	d
+__METAL_FREERTOS_CACHE__H__	libmetal/lib/system/freertos/cache.h	17;"	d
+__METAL_FREERTOS_CONDITION__H__	libmetal/lib/system/freertos/condition.h	17;"	d
+__METAL_FREERTOS_IRQ__H__	libmetal/lib/system/freertos/irq.h	17;"	d
+__METAL_FREERTOS_LOG__H__	libmetal/lib/system/freertos/log.h	42;"	d
+__METAL_FREERTOS_MUTEX__H__	libmetal/lib/system/freertos/mutex.h	17;"	d
+__METAL_FREERTOS_SLEEP__H__	libmetal/lib/system/freertos/sleep.h	17;"	d
+__METAL_FREERTOS_SYS__H__	libmetal/lib/system/freertos/sys.h	18;"	d
+__METAL_FREERTOS_TEMPLATE_SYS__H__	libmetal/lib/system/freertos/template/sys.h	17;"	d
+__METAL_FREERTOS_XLNX_SYS__H__	libmetal/lib/system/freertos/xlnx/sys.h	18;"	d
+__METAL_GCC_ATOMIC__H__	libmetal/lib/compiler/gcc/atomic.h	13;"	d
+__METAL_GCC_COMPILER__H__	libmetal/lib/compiler/gcc/compiler.h	13;"	d
+__METAL_GENERIC_ALLOC__H__	libmetal/lib/system/generic/alloc.h	17;"	d
+__METAL_GENERIC_ASSERT__H__	libmetal/lib/system/generic/assert.h	17;"	d
+__METAL_GENERIC_ATOMIC__H__	libmetal/lib/processor/generic/atomic.h	13;"	d
+__METAL_GENERIC_CACHE__H__	libmetal/lib/system/generic/cache.h	17;"	d
+__METAL_GENERIC_CONDITION__H__	libmetal/lib/system/generic/condition.h	17;"	d
+__METAL_GENERIC_CPU__H__	libmetal/lib/processor/generic/cpu.h	13;"	d
+__METAL_GENERIC_IO__H__	libmetal/lib/system/generic/io.h	17;"	d
+__METAL_GENERIC_IRQ__H__	libmetal/lib/system/generic/irq.h	17;"	d
+__METAL_GENERIC_LOG__H__	libmetal/lib/system/generic/log.h	42;"	d
+__METAL_GENERIC_MUTEX__H__	libmetal/lib/system/generic/mutex.h	17;"	d
+__METAL_GENERIC_SLEEP__H__	libmetal/lib/system/generic/sleep.h	17;"	d
+__METAL_GENERIC_SYS__H__	libmetal/lib/system/generic/sys.h	17;"	d
+__METAL_GENERIC_TEMPLATE_SYS__H__	libmetal/lib/system/generic/template/sys.h	17;"	d
+__METAL_GENERIC_XLNX_SYS__H__	libmetal/lib/system/generic/xlnx/sys.h	32;"	d
+__METAL_HOSTED_CPU__H__	libmetal/lib/processor/hosted/cpu.h	15;"	d
+__METAL_IAR_COMPILER__H__	libmetal/lib/compiler/iar/compiler.h	13;"	d
+__METAL_IAR_ERRNO__H__	libmetal/lib/compiler/iar/errno.h	12;"	d
+__METAL_IO__H__	libmetal/lib/io.h	13;"	d
+__METAL_IRQ_CONTROLLER__H__	libmetal/lib/irq_controller.h	13;"	d
+__METAL_IRQ__H__	libmetal/lib/irq.h	13;"	d
+__METAL_LINUX_ALLOC__H__	libmetal/lib/system/linux/alloc.h	17;"	d
+__METAL_LINUX_ASSERT__H__	libmetal/lib/system/linux/assert.h	17;"	d
+__METAL_LINUX_CACHE__H__	libmetal/lib/system/linux/cache.h	17;"	d
+__METAL_LINUX_CONDITION__H__	libmetal/lib/system/linux/condition.h	17;"	d
+__METAL_LINUX_IO__H__	libmetal/lib/system/linux/io.h	17;"	d
+__METAL_LINUX_IRQ__H__	libmetal/lib/system/linux/irq.h	33;"	d
+__METAL_LINUX_LOG__H__	libmetal/lib/system/linux/log.h	42;"	d
+__METAL_LINUX_MUTEX__H__	libmetal/lib/system/linux/mutex.h	17;"	d
+__METAL_LINUX_SLEEP__H__	libmetal/lib/system/linux/sleep.h	17;"	d
+__METAL_LINUX_SYS__H__	libmetal/lib/system/linux/sys.h	17;"	d
+__METAL_LIST__H__	libmetal/lib/list.h	13;"	d
+__METAL_METAL_LOG__H__	libmetal/lib/log.h	13;"	d
+__METAL_MUTEX__H__	libmetal/lib/mutex.h	13;"	d
+__METAL_NUTTX_ALLOC__H__	libmetal/lib/system/nuttx/alloc.h	17;"	d
+__METAL_NUTTX_ASSERT__H__	libmetal/lib/system/nuttx/assert.h	17;"	d
+__METAL_NUTTX_CACHE__H__	libmetal/lib/system/nuttx/cache.h	17;"	d
+__METAL_NUTTX_CONDITION__H__	libmetal/lib/system/nuttx/condition.h	17;"	d
+__METAL_NUTTX_IO__H__	libmetal/lib/system/nuttx/io.h	17;"	d
+__METAL_NUTTX_IRQ__H__	libmetal/lib/system/nuttx/irq.h	17;"	d
+__METAL_NUTTX_LOG__H__	libmetal/lib/system/nuttx/log.h	17;"	d
+__METAL_NUTTX_MUTEX__H__	libmetal/lib/system/nuttx/mutex.h	17;"	d
+__METAL_NUTTX_SLEEP__H__	libmetal/lib/system/nuttx/sleep.h	17;"	d
+__METAL_NUTTX_SYS__H__	libmetal/lib/system/nuttx/sys.h	17;"	d
+__METAL_SHMEM__H__	libmetal/lib/shmem.h	13;"	d
+__METAL_SLEEP__H__	libmetal/lib/sleep.h	13;"	d
+__METAL_SOFTIRQ__H__	libmetal/lib/softirq.h	13;"	d
+__METAL_SPINLOCK__H__	libmetal/lib/spinlock.h	13;"	d
+__METAL_SYS__H__	libmetal/lib/sys.h	14;"	d
+__METAL_TIME__H__	libmetal/lib/time.h	13;"	d
+__METAL_UTILITIES__H__	libmetal/lib/utilities.h	14;"	d
+__METAL_VERSION__H__	libmetal/lib/version.h	13;"	d
+__METAL_X86_64_CPU__H__	libmetal/lib/processor/x86_64/cpu.h	13;"	d
+__METAL_X86_CPU__H__	libmetal/lib/processor/x86/cpu.h	13;"	d
+__METAL_XTENSA_CPU__H__	libmetal/lib/processor/xtensa/cpu.h	13;"	d
+__METAL_ZEPHYR_ALLOC__H__	libmetal/lib/system/zephyr/alloc.h	17;"	d
+__METAL_ZEPHYR_ASSERT__H__	libmetal/lib/system/zephyr/assert.h	17;"	d
+__METAL_ZEPHYR_CACHE__H__	libmetal/lib/system/zephyr/cache.h	17;"	d
+__METAL_ZEPHYR_CONDITION__H__	libmetal/lib/system/zephyr/condition.h	17;"	d
+__METAL_ZEPHYR_IO__H__	libmetal/lib/system/zephyr/io.h	17;"	d
+__METAL_ZEPHYR_IRQ__H__	libmetal/lib/system/zephyr/irq.h	17;"	d
+__METAL_ZEPHYR_LOG__H__	libmetal/lib/system/zephyr/log.h	17;"	d
+__METAL_ZEPHYR_MUTEX__H__	libmetal/lib/system/zephyr/mutex.h	17;"	d
+__METAL_ZEPHYR_SLEEP__H__	libmetal/lib/system/zephyr/sleep.h	17;"	d
+__METAL_ZEPHYR_SYS__H__	libmetal/lib/system/zephyr/sys.h	17;"	d
+__deprecated	libmetal/lib/compiler/gcc/compiler.h	38;"	d
+__deprecated	libmetal/lib/compiler/iar/compiler.h	28;"	d
+__metal_allocate_memory	libmetal/lib/system/freertos/alloc.h	/^static inline void *__metal_allocate_memory(unsigned int size)$/;"	f
+__metal_allocate_memory	libmetal/lib/system/generic/alloc.h	/^static inline void *__metal_allocate_memory(unsigned int size)$/;"	f
+__metal_allocate_memory	libmetal/lib/system/linux/alloc.h	/^static inline void *__metal_allocate_memory(unsigned int size)$/;"	f
+__metal_allocate_memory	libmetal/lib/system/nuttx/alloc.h	/^static inline void *__metal_allocate_memory(unsigned int size)$/;"	f
+__metal_allocate_memory	libmetal/lib/system/zephyr/alloc.h	/^static inline void *__metal_allocate_memory(unsigned int size)$/;"	f
+__metal_cache_flush	libmetal/lib/system/freertos/cache.h	/^static inline void __metal_cache_flush(void *addr, unsigned int len)$/;"	f
+__metal_cache_flush	libmetal/lib/system/generic/cache.h	/^static inline void __metal_cache_flush(void *addr, unsigned int len)$/;"	f
+__metal_cache_flush	libmetal/lib/system/linux/cache.h	/^static inline void __metal_cache_flush(void *addr, unsigned int len)$/;"	f
+__metal_cache_flush	libmetal/lib/system/nuttx/cache.h	/^static inline void __metal_cache_flush(void *addr, unsigned int len)$/;"	f
+__metal_cache_flush	libmetal/lib/system/zephyr/cache.h	/^static inline void __metal_cache_flush(void *addr, unsigned int len)$/;"	f
+__metal_cache_invalidate	libmetal/lib/system/freertos/cache.h	/^static inline void __metal_cache_invalidate(void *addr, unsigned int len)$/;"	f
+__metal_cache_invalidate	libmetal/lib/system/generic/cache.h	/^static inline void __metal_cache_invalidate(void *addr, unsigned int len)$/;"	f
+__metal_cache_invalidate	libmetal/lib/system/linux/cache.h	/^static inline void __metal_cache_invalidate(void *addr, unsigned int len)$/;"	f
+__metal_cache_invalidate	libmetal/lib/system/nuttx/cache.h	/^static inline void __metal_cache_invalidate(void *addr, unsigned int len)$/;"	f
+__metal_cache_invalidate	libmetal/lib/system/zephyr/cache.h	/^static inline void __metal_cache_invalidate(void *addr, unsigned int len)$/;"	f
+__metal_free_memory	libmetal/lib/system/freertos/alloc.h	/^static inline void __metal_free_memory(void *ptr)$/;"	f
+__metal_free_memory	libmetal/lib/system/generic/alloc.h	/^static inline void __metal_free_memory(void *ptr)$/;"	f
+__metal_free_memory	libmetal/lib/system/linux/alloc.h	/^static inline void __metal_free_memory(void *ptr)$/;"	f
+__metal_free_memory	libmetal/lib/system/nuttx/alloc.h	/^static inline void __metal_free_memory(void *ptr)$/;"	f
+__metal_free_memory	libmetal/lib/system/zephyr/alloc.h	/^static inline void __metal_free_memory(void *ptr)$/;"	f
+__metal_mutex_acquire	libmetal/lib/system/freertos/mutex.h	/^static inline void __metal_mutex_acquire(metal_mutex_t *mutex)$/;"	f
+__metal_mutex_acquire	libmetal/lib/system/generic/mutex.h	/^static inline void __metal_mutex_acquire(metal_mutex_t *mutex)$/;"	f
+__metal_mutex_acquire	libmetal/lib/system/linux/mutex.h	/^static inline void __metal_mutex_acquire(metal_mutex_t *mutex)$/;"	f
+__metal_mutex_acquire	libmetal/lib/system/nuttx/mutex.h	/^static inline void __metal_mutex_acquire(metal_mutex_t *mutex)$/;"	f
+__metal_mutex_acquire	libmetal/lib/system/zephyr/mutex.h	/^static inline void __metal_mutex_acquire(metal_mutex_t *m)$/;"	f
+__metal_mutex_cmpxchg	libmetal/lib/system/linux/mutex.h	/^static inline int __metal_mutex_cmpxchg(metal_mutex_t *mutex,$/;"	f
+__metal_mutex_deinit	libmetal/lib/system/freertos/mutex.h	/^static inline void __metal_mutex_deinit(metal_mutex_t *mutex)$/;"	f
+__metal_mutex_deinit	libmetal/lib/system/generic/mutex.h	/^static inline void __metal_mutex_deinit(metal_mutex_t *mutex)$/;"	f
+__metal_mutex_deinit	libmetal/lib/system/linux/mutex.h	/^static inline void __metal_mutex_deinit(metal_mutex_t *mutex)$/;"	f
+__metal_mutex_deinit	libmetal/lib/system/nuttx/mutex.h	/^static inline void __metal_mutex_deinit(metal_mutex_t *mutex)$/;"	f
+__metal_mutex_deinit	libmetal/lib/system/zephyr/mutex.h	/^static inline void __metal_mutex_deinit(metal_mutex_t *m)$/;"	f
+__metal_mutex_init	libmetal/lib/system/freertos/mutex.h	/^static inline void __metal_mutex_init(metal_mutex_t *mutex)$/;"	f
+__metal_mutex_init	libmetal/lib/system/generic/mutex.h	/^static inline void __metal_mutex_init(metal_mutex_t *mutex)$/;"	f
+__metal_mutex_init	libmetal/lib/system/linux/mutex.h	/^static inline void __metal_mutex_init(metal_mutex_t *mutex)$/;"	f
+__metal_mutex_init	libmetal/lib/system/nuttx/mutex.h	/^static inline void __metal_mutex_init(metal_mutex_t *mutex)$/;"	f
+__metal_mutex_init	libmetal/lib/system/zephyr/mutex.h	/^static inline void __metal_mutex_init(metal_mutex_t *m)$/;"	f
+__metal_mutex_is_acquired	libmetal/lib/system/freertos/mutex.h	/^static inline int __metal_mutex_is_acquired(metal_mutex_t *mutex)$/;"	f
+__metal_mutex_is_acquired	libmetal/lib/system/generic/mutex.h	/^static inline int __metal_mutex_is_acquired(metal_mutex_t *mutex)$/;"	f
+__metal_mutex_is_acquired	libmetal/lib/system/linux/mutex.h	/^static inline int __metal_mutex_is_acquired(metal_mutex_t *mutex)$/;"	f
+__metal_mutex_is_acquired	libmetal/lib/system/nuttx/mutex.h	/^static inline int __metal_mutex_is_acquired(metal_mutex_t *mutex)$/;"	f
+__metal_mutex_is_acquired	libmetal/lib/system/zephyr/mutex.h	/^static inline int __metal_mutex_is_acquired(metal_mutex_t *m)$/;"	f
+__metal_mutex_release	libmetal/lib/system/freertos/mutex.h	/^static inline void __metal_mutex_release(metal_mutex_t *mutex)$/;"	f
+__metal_mutex_release	libmetal/lib/system/generic/mutex.h	/^static inline void __metal_mutex_release(metal_mutex_t *mutex)$/;"	f
+__metal_mutex_release	libmetal/lib/system/linux/mutex.h	/^static inline void __metal_mutex_release(metal_mutex_t *mutex)$/;"	f
+__metal_mutex_release	libmetal/lib/system/nuttx/mutex.h	/^static inline void __metal_mutex_release(metal_mutex_t *mutex)$/;"	f
+__metal_mutex_release	libmetal/lib/system/zephyr/mutex.h	/^static inline void __metal_mutex_release(metal_mutex_t *m)$/;"	f
+__metal_mutex_try_acquire	libmetal/lib/system/freertos/mutex.h	/^static inline int __metal_mutex_try_acquire(metal_mutex_t *mutex)$/;"	f
+__metal_mutex_try_acquire	libmetal/lib/system/generic/mutex.h	/^static inline int __metal_mutex_try_acquire(metal_mutex_t *mutex)$/;"	f
+__metal_mutex_try_acquire	libmetal/lib/system/linux/mutex.h	/^static inline int __metal_mutex_try_acquire(metal_mutex_t *mutex)$/;"	f
+__metal_mutex_try_acquire	libmetal/lib/system/nuttx/mutex.h	/^static inline int __metal_mutex_try_acquire(metal_mutex_t *mutex)$/;"	f
+__metal_mutex_try_acquire	libmetal/lib/system/zephyr/mutex.h	/^static inline int __metal_mutex_try_acquire(metal_mutex_t *m)$/;"	f
+__metal_sleep_usec	libmetal/lib/system/freertos/sleep.h	/^static inline int __metal_sleep_usec(unsigned int usec)$/;"	f
+__metal_sleep_usec	libmetal/lib/system/generic/sleep.h	/^static inline int __metal_sleep_usec(unsigned int usec)$/;"	f
+__metal_sleep_usec	libmetal/lib/system/linux/sleep.h	/^static inline int __metal_sleep_usec(unsigned int usec)$/;"	f
+__metal_sleep_usec	libmetal/lib/system/nuttx/sleep.h	/^static inline int __metal_sleep_usec(unsigned int usec)$/;"	f
+__metal_sleep_usec	libmetal/lib/system/zephyr/sleep.h	/^static inline int __metal_sleep_usec(unsigned int usec)$/;"	f
+__sync_synchronize	libmetal/lib/processor/ceva/cpu.h	21;"	d
+__sync_synchronize	libmetal/lib/processor/xtensa/cpu.h	16;"	d
+_metal	libmetal/lib/system/freertos/init.c	/^struct metal_state _metal;$/;"	v	typeref:struct:metal_state
+_metal	libmetal/lib/system/generic/init.c	/^struct metal_state _metal;$/;"	v	typeref:struct:metal_state
+_metal	libmetal/lib/system/linux/init.c	/^struct metal_state _metal;$/;"	v	typeref:struct:metal_state
+_metal	libmetal/lib/system/nuttx/init.c	/^struct metal_state _metal;$/;"	v	typeref:struct:metal_state
+_metal	libmetal/lib/system/zephyr/init.c	/^struct metal_state _metal;$/;"	v	typeref:struct:metal_state
+_metal_irq_set_enable	libmetal/lib/irq.c	/^static void _metal_irq_set_enable(int irq, unsigned int state)$/;"	f	file:
+arg	libmetal/lib/irq_controller.h	/^	void *arg; \/**< Argument to pass to interrupt controller function *\/$/;"	m	struct:metal_irq_controller
+arg	libmetal/lib/irq_controller.h	/^	void *arg; \/**< Argument to pass to the interrupt handler *\/$/;"	m	struct:metal_irq
+atomic_char	libmetal/lib/compiler/gcc/atomic.h	/^typedef char atomic_char;$/;"	t
+atomic_compare_exchange_strong	libmetal/lib/compiler/gcc/atomic.h	79;"	d
+atomic_compare_exchange_strong_explicit	libmetal/lib/compiler/gcc/atomic.h	89;"	d
+atomic_compare_exchange_weak	libmetal/lib/compiler/gcc/atomic.h	91;"	d
+atomic_compare_exchange_weak_explicit	libmetal/lib/compiler/gcc/atomic.h	93;"	d
+atomic_exchange	libmetal/lib/compiler/gcc/atomic.h	64;"	d
+atomic_exchange_explicit	libmetal/lib/compiler/gcc/atomic.h	77;"	d
+atomic_fetch_add	libmetal/lib/compiler/gcc/atomic.h	95;"	d
+atomic_fetch_add_explicit	libmetal/lib/compiler/gcc/atomic.h	97;"	d
+atomic_fetch_and	libmetal/lib/compiler/gcc/atomic.h	111;"	d
+atomic_fetch_and_explicit	libmetal/lib/compiler/gcc/atomic.h	113;"	d
+atomic_fetch_or	libmetal/lib/compiler/gcc/atomic.h	103;"	d
+atomic_fetch_or_explicit	libmetal/lib/compiler/gcc/atomic.h	105;"	d
+atomic_fetch_sub	libmetal/lib/compiler/gcc/atomic.h	99;"	d
+atomic_fetch_sub_explicit	libmetal/lib/compiler/gcc/atomic.h	101;"	d
+atomic_fetch_xor	libmetal/lib/compiler/gcc/atomic.h	107;"	d
+atomic_fetch_xor_explicit	libmetal/lib/compiler/gcc/atomic.h	109;"	d
+atomic_flag	libmetal/lib/compiler/gcc/atomic.h	/^typedef int atomic_flag;$/;"	t
+atomic_flag_clear	libmetal/lib/compiler/gcc/atomic.h	48;"	d
+atomic_flag_clear_explicit	libmetal/lib/compiler/gcc/atomic.h	50;"	d
+atomic_flag_test_and_set	libmetal/lib/compiler/gcc/atomic.h	44;"	d
+atomic_flag_test_and_set_explicit	libmetal/lib/compiler/gcc/atomic.h	46;"	d
+atomic_init	libmetal/lib/compiler/gcc/atomic.h	52;"	d
+atomic_int	libmetal/lib/compiler/gcc/atomic.h	/^typedef int atomic_int;$/;"	t
+atomic_is_lock_free	libmetal/lib/compiler/gcc/atomic.h	54;"	d
+atomic_llong	libmetal/lib/compiler/gcc/atomic.h	/^typedef long long atomic_llong;$/;"	t
+atomic_load	libmetal/lib/compiler/gcc/atomic.h	60;"	d
+atomic_load_explicit	libmetal/lib/compiler/gcc/atomic.h	62;"	d
+atomic_long	libmetal/lib/compiler/gcc/atomic.h	/^typedef long atomic_long;$/;"	t
+atomic_short	libmetal/lib/compiler/gcc/atomic.h	/^typedef short atomic_short;$/;"	t
+atomic_signal_fence	libmetal/lib/compiler/gcc/atomic.h	117;"	d
+atomic_store	libmetal/lib/compiler/gcc/atomic.h	56;"	d
+atomic_store_explicit	libmetal/lib/compiler/gcc/atomic.h	58;"	d
+atomic_thread_fence	libmetal/lib/compiler/gcc/atomic.h	115;"	d
+atomic_uchar	libmetal/lib/compiler/gcc/atomic.h	/^typedef unsigned char atomic_uchar;$/;"	t
+atomic_uint	libmetal/lib/compiler/gcc/atomic.h	/^typedef unsigned int atomic_uint;$/;"	t
+atomic_uintptr_t	libmetal/lib/compiler/gcc/atomic.h	/^typedef atomic_uint atomic_uintptr_t;$/;"	t
+atomic_ullong	libmetal/lib/compiler/gcc/atomic.h	/^typedef unsigned long long atomic_ullong;$/;"	t
+atomic_ulong	libmetal/lib/compiler/gcc/atomic.h	/^typedef unsigned long atomic_ulong;$/;"	t
+atomic_ushort	libmetal/lib/compiler/gcc/atomic.h	/^typedef unsigned short atomic_ushort;$/;"	t
+block_read	libmetal/lib/io.h	/^	int		(*block_read)(struct metal_io_region *io,$/;"	m	struct:metal_io_ops
+block_set	libmetal/lib/io.h	/^	void		(*block_set)(struct metal_io_region *io,$/;"	m	struct:metal_io_ops
+block_write	libmetal/lib/io.h	/^	int		(*block_write)(struct metal_io_region *io,$/;"	m	struct:metal_io_ops
+bus	libmetal/lib/device.h	/^	struct metal_bus       *bus;        \/**< Bus that contains device *\/$/;"	m	struct:metal_device	typeref:struct:metal_device::metal_bus
+bus	libmetal/lib/system/linux/device.c	/^	struct metal_bus	bus;$/;"	m	struct:linux_bus	typeref:struct:linux_bus::metal_bus	file:
+bus_close	libmetal/lib/device.h	/^	void		(*bus_close)(struct metal_bus *bus);$/;"	m	struct:metal_bus_ops
+bus_list	libmetal/lib/sys.h	/^	struct metal_list		bus_list;$/;"	m	struct:metal_common_state	typeref:struct:metal_common_state::metal_list
+bus_name	libmetal/lib/system/linux/device.c	/^	const char		*bus_name;$/;"	m	struct:linux_bus	file:
+close	libmetal/lib/io.h	/^	void		(*close)(struct metal_io_region *io);$/;"	m	struct:metal_io_ops
+cls_name	libmetal/lib/system/linux/device.c	/^	const char		*cls_name;$/;"	m	struct:linux_driver	file:
+cls_path	libmetal/lib/system/linux/device.c	/^	char				cls_path[PATH_MAX];$/;"	m	struct:linux_device	file:
+common	libmetal/lib/system/freertos/sys.h	/^	struct metal_common_state common;$/;"	m	struct:metal_state	typeref:struct:metal_state::metal_common_state
+common	libmetal/lib/system/generic/sys.h	/^	struct metal_common_state common;$/;"	m	struct:metal_state	typeref:struct:metal_state::metal_common_state
+common	libmetal/lib/system/linux/sys.h	/^	struct metal_common_state common;$/;"	m	struct:metal_state	typeref:struct:metal_state::metal_common_state
+common	libmetal/lib/system/nuttx/sys.h	/^	struct metal_common_state common;$/;"	m	struct:metal_state	typeref:struct:metal_state::metal_common_state
+common	libmetal/lib/system/zephyr/sys.h	/^	struct metal_common_state common;$/;"	m	struct:metal_state	typeref:struct:metal_state::metal_common_state
+cond	libmetal/lib/system/nuttx/condition.h	/^	pthread_cond_t cond;$/;"	m	struct:metal_condition
+data_fd	libmetal/lib/system/linux/sys.h	/^	int			data_fd;$/;"	m	struct:metal_state
+dev_close	libmetal/lib/device.h	/^	void		(*dev_close)(struct metal_bus *bus,$/;"	m	struct:metal_bus_ops
+dev_close	libmetal/lib/system/linux/device.c	/^	void			(*dev_close)(struct linux_bus *lbus,$/;"	m	struct:linux_driver	file:
+dev_dma_map	libmetal/lib/device.h	/^	int		(*dev_dma_map)(struct metal_bus *bus,$/;"	m	struct:metal_bus_ops
+dev_dma_map	libmetal/lib/system/linux/device.c	/^	int			(*dev_dma_map)(struct linux_bus *lbus,$/;"	m	struct:linux_driver	file:
+dev_dma_unmap	libmetal/lib/device.h	/^	void		(*dev_dma_unmap)(struct metal_bus *bus,$/;"	m	struct:metal_bus_ops
+dev_dma_unmap	libmetal/lib/system/linux/device.c	/^	void			(*dev_dma_unmap)(struct linux_bus *lbus,$/;"	m	struct:linux_driver	file:
+dev_irq_ack	libmetal/lib/device.h	/^	void		(*dev_irq_ack)(struct metal_bus *bus,$/;"	m	struct:metal_bus_ops
+dev_irq_ack	libmetal/lib/system/linux/device.c	/^	void			(*dev_irq_ack)(struct linux_bus *lbus,$/;"	m	struct:linux_driver	file:
+dev_name	libmetal/lib/system/linux/device.c	/^	char				dev_name[PATH_MAX];$/;"	m	struct:linux_device	file:
+dev_open	libmetal/lib/device.h	/^	int		(*dev_open)(struct metal_bus *bus,$/;"	m	struct:metal_bus_ops
+dev_open	libmetal/lib/system/linux/device.c	/^	int			(*dev_open)(struct linux_bus *lbus,$/;"	m	struct:linux_driver	file:
+dev_path	libmetal/lib/system/linux/device.c	/^	char				dev_path[PATH_MAX];$/;"	m	struct:linux_device	file:
+device	libmetal/lib/system/linux/device.c	/^	struct metal_device		device;$/;"	m	struct:linux_device	typeref:struct:linux_device::metal_device	file:
+devices	libmetal/lib/device.h	/^	struct metal_list	devices;$/;"	m	struct:metal_bus	typeref:struct:metal_bus::metal_list
+drivers	libmetal/lib/system/linux/device.c	/^	struct linux_driver	drivers[MAX_DRIVERS];$/;"	m	struct:linux_bus	typeref:struct:linux_bus::linux_driver	file:
+drv_name	libmetal/lib/system/linux/device.c	/^	const char		*drv_name;$/;"	m	struct:linux_driver	file:
+fd	libmetal/lib/system/linux/device.c	/^	int				fd;$/;"	m	struct:linux_device	file:
+for_each_linux_bus	libmetal/lib/system/linux/device.c	416;"	d	file:
+for_each_linux_driver	libmetal/lib/system/linux/device.c	418;"	d	file:
+generic_device_list	libmetal/lib/sys.h	/^	struct metal_list		generic_device_list;$/;"	m	struct:metal_common_state	typeref:struct:metal_common_state::metal_list
+generic_shmem_list	libmetal/lib/sys.h	/^	struct metal_list		generic_shmem_list;$/;"	m	struct:metal_common_state	typeref:struct:metal_common_state::metal_list
+hd	libmetal/lib/irq_controller.h	/^	metal_irq_handler hd; \/**< Interrupt handler *\/$/;"	m	struct:metal_irq
+io	libmetal/lib/dma.h	/^	struct metal_io_region *io; \/**< IO region *\/$/;"	m	struct:metal_sg	typeref:struct:metal_sg::metal_io_region
+io	libmetal/lib/shmem.h	/^	struct metal_io_region	io;$/;"	m	struct:metal_generic_shmem	typeref:struct:metal_generic_shmem::metal_io_region
+io	libmetal/lib/system/linux/shmem.c	/^	struct metal_io_region	io;$/;"	m	struct:metal_shmem	typeref:struct:metal_shmem::metal_io_region	file:
+irq_base	libmetal/lib/irq_controller.h	/^	int irq_base; \/**< Start of IRQ number of the range managed by$/;"	m	struct:metal_irq_controller
+irq_handling_stop	libmetal/lib/system/linux/irq.c	/^static bool irq_handling_stop; \/**< stop interrupts handling *\/$/;"	v	file:
+irq_info	libmetal/lib/device.h	/^	void                   *irq_info;  \/**< IRQ ID *\/$/;"	m	struct:metal_device
+irq_lock	libmetal/lib/system/linux/irq.c	/^static metal_mutex_t irq_lock; \/**< irq handling lock *\/$/;"	v	file:
+irq_notify_fd	libmetal/lib/system/linux/irq.c	/^static int irq_notify_fd; \/**< irq handling state change notification file$/;"	v	file:
+irq_num	libmetal/lib/device.h	/^	int                    irq_num;    \/**< Number of IRQs per device *\/$/;"	m	struct:metal_device
+irq_num	libmetal/lib/irq_controller.h	/^	int irq_num; \/**< Number of IRQs managed by the IRQ controller *\/$/;"	m	struct:metal_irq_controller
+irq_pthread	libmetal/lib/system/linux/irq.c	/^static pthread_t irq_pthread; \/**< irq handling thread id *\/$/;"	v	file:
+irq_register	libmetal/lib/irq_controller.h	/^	metal_cntr_irq_register irq_register; \/**< function to register IRQ$/;"	m	struct:metal_irq_controller
+irq_set_enable	libmetal/lib/irq_controller.h	/^	metal_irq_set_enable irq_set_enable; \/**< function to set IRQ enable *\/$/;"	m	struct:metal_irq_controller
+irqs	libmetal/lib/irq_controller.h	/^	struct metal_irq *irqs; \/**< Array of IRQs managed by the controller *\/$/;"	m	struct:metal_irq_controller	typeref:struct:metal_irq_controller::metal_irq
+irqs	libmetal/lib/system/freertos/xlnx/irq.c	/^static struct metal_irq irqs[MAX_IRQS]; \/**< Linux IRQs array *\/$/;"	v	typeref:struct:metal_irq	file:
+irqs	libmetal/lib/system/generic/xlnx/irq.c	/^static struct metal_irq irqs[MAX_IRQS]; \/**< Linux IRQs array *\/$/;"	v	typeref:struct:metal_irq	file:
+irqs	libmetal/lib/system/linux/irq.c	/^static struct metal_irq irqs[MAX_IRQS]; \/**< Linux IRQs array *\/$/;"	v	typeref:struct:metal_irq	file:
+irqs_devs	libmetal/lib/system/linux/irq.c	/^static struct metal_device *irqs_devs[MAX_IRQS]; \/**< Linux devices for IRQs *\/$/;"	v	typeref:struct:metal_device	file:
+irqs_enabled	libmetal/lib/system/linux/irq.c	/^irqs_enabled[metal_div_round_up(MAX_IRQS, METAL_BITS_PER_ULONG)];$/;"	v	file:
+ldrv	libmetal/lib/system/linux/device.c	/^	struct linux_driver		*ldrv;$/;"	m	struct:linux_device	typeref:struct:linux_device::linux_driver	file:
+len	libmetal/lib/dma.h	/^	int len; \/**< length *\/$/;"	m	struct:metal_sg
+level_strs	libmetal/lib/system/zephyr/log.c	/^static const char * const level_strs[] = {$/;"	v	file:
+linux_bus	libmetal/lib/system/linux/device.c	/^static struct linux_bus linux_bus[] = {$/;"	v	typeref:struct:linux_bus	file:
+linux_bus	libmetal/lib/system/linux/device.c	/^struct linux_bus {$/;"	s	file:
+linux_device	libmetal/lib/system/linux/device.c	/^struct linux_device {$/;"	s	file:
+linux_driver	libmetal/lib/system/linux/device.c	/^struct linux_driver {$/;"	s	file:
+log_handler	libmetal/lib/sys.h	/^	metal_log_handler		log_handler;$/;"	m	struct:metal_common_state
+log_handler	libmetal/lib/sys.h	/^	metal_log_handler		log_handler;$/;"	m	struct:metal_init_params
+log_level	libmetal/lib/sys.h	/^	enum metal_log_level		log_level;$/;"	m	struct:metal_common_state	typeref:enum:metal_common_state::metal_log_level
+log_level	libmetal/lib/sys.h	/^	enum metal_log_level		log_level;$/;"	m	struct:metal_init_params	typeref:enum:metal_init_params::metal_log_level
+m	libmetal/lib/system/freertos/condition.h	/^	metal_mutex_t *m; \/**< mutex.$/;"	m	struct:metal_condition
+m	libmetal/lib/system/freertos/mutex.h	/^	SemaphoreHandle_t m;$/;"	m	struct:__anon3
+mem_flags	libmetal/lib/io.h	/^	unsigned int		mem_flags;  \/**< memory attribute of the$/;"	m	struct:metal_io_region
+memory_order	libmetal/lib/compiler/gcc/atomic.h	/^} memory_order;$/;"	t	typeref:enum:__anon4
+memory_order_acq_rel	libmetal/lib/compiler/gcc/atomic.h	/^	memory_order_acq_rel,$/;"	e	enum:__anon4
+memory_order_acquire	libmetal/lib/compiler/gcc/atomic.h	/^	memory_order_acquire,$/;"	e	enum:__anon4
+memory_order_consume	libmetal/lib/compiler/gcc/atomic.h	/^	memory_order_consume,$/;"	e	enum:__anon4
+memory_order_relaxed	libmetal/lib/compiler/gcc/atomic.h	/^	memory_order_relaxed,$/;"	e	enum:__anon4
+memory_order_release	libmetal/lib/compiler/gcc/atomic.h	/^	memory_order_release,$/;"	e	enum:__anon4
+memory_order_seq_cst	libmetal/lib/compiler/gcc/atomic.h	/^	memory_order_seq_cst,$/;"	e	enum:__anon4
+metal_add_page_size	libmetal/lib/system/linux/init.c	/^static int metal_add_page_size(const char *path, int shift, int mmap_flags)$/;"	f	file:
+metal_align	libmetal/lib/compiler/gcc/compiler.h	20;"	d
+metal_align	libmetal/lib/compiler/iar/compiler.h	20;"	d
+metal_align_down	libmetal/lib/utilities.h	52;"	d
+metal_align_up	libmetal/lib/utilities.h	56;"	d
+metal_allocate_memory	libmetal/lib/alloc.h	/^static inline void *metal_allocate_memory(unsigned int size)$/;"	f
+metal_asm	libmetal/lib/compiler/gcc/compiler.h	24;"	d
+metal_asm	libmetal/lib/compiler/gcc/compiler.h	31;"	d
+metal_asm	libmetal/lib/compiler/iar/compiler.h	22;"	d
+metal_assert	libmetal/lib/assert.h	21;"	d
+metal_bit	libmetal/lib/utilities.h	85;"	d
+metal_bitmap_clear_bit	libmetal/lib/utilities.h	/^static inline void metal_bitmap_clear_bit(unsigned long *bitmap, int bit)$/;"	f
+metal_bitmap_for_each_clear_bit	libmetal/lib/utilities.h	143;"	d
+metal_bitmap_for_each_set_bit	libmetal/lib/utilities.h	125;"	d
+metal_bitmap_is_bit_clear	libmetal/lib/utilities.h	/^static inline int metal_bitmap_is_bit_clear(unsigned long *bitmap, int bit)$/;"	f
+metal_bitmap_is_bit_set	libmetal/lib/utilities.h	/^static inline int metal_bitmap_is_bit_set(unsigned long *bitmap, int bit)$/;"	f
+metal_bitmap_longs	libmetal/lib/utilities.h	87;"	d
+metal_bitmap_next_clear_bit	libmetal/lib/utilities.h	/^metal_bitmap_next_clear_bit(unsigned long *bitmap, unsigned int start,$/;"	f
+metal_bitmap_next_set_bit	libmetal/lib/utilities.h	/^metal_bitmap_next_set_bit(unsigned long *bitmap, unsigned int start,$/;"	f
+metal_bitmap_set_bit	libmetal/lib/utilities.h	/^static inline void metal_bitmap_set_bit(unsigned long *bitmap, int bit)$/;"	f
+metal_bus	libmetal/lib/device.h	/^struct metal_bus {$/;"	s
+metal_bus_find	libmetal/lib/device.c	/^int metal_bus_find(const char *name, struct metal_bus **result)$/;"	f
+metal_bus_ops	libmetal/lib/device.h	/^struct metal_bus_ops {$/;"	s
+metal_bus_register	libmetal/lib/device.c	/^int metal_bus_register(struct metal_bus *bus)$/;"	f
+metal_bus_unregister	libmetal/lib/device.c	/^int metal_bus_unregister(struct metal_bus *bus)$/;"	f
+metal_cache_flush	libmetal/lib/cache.h	/^static inline void metal_cache_flush(void *addr, unsigned int len)$/;"	f
+metal_cache_invalidate	libmetal/lib/cache.h	/^static inline void metal_cache_invalidate(void *addr, unsigned int len)$/;"	f
+metal_cntr_irq_attach	libmetal/lib/system/nuttx/irq.c	/^static int metal_cntr_irq_attach(struct metal_irq_controller *cntr,$/;"	f	file:
+metal_cntr_irq_handler	libmetal/lib/system/nuttx/irq.c	/^static int metal_cntr_irq_handler(int irq, void *context, void *data)$/;"	f	file:
+metal_cntr_irq_init	libmetal/lib/system/nuttx/irq.c	/^int metal_cntr_irq_init(void)$/;"	f
+metal_cntr_irq_register	libmetal/lib/irq_controller.h	/^typedef int (*metal_cntr_irq_register) (struct metal_irq_controller *irq_cntr,$/;"	t
+metal_cntr_irq_set_enable	libmetal/lib/system/nuttx/irq.c	/^static void metal_cntr_irq_set_enable(struct metal_irq_controller *cntr,$/;"	f	file:
+metal_common_state	libmetal/lib/sys.h	/^struct metal_common_state {$/;"	s
+metal_condition	libmetal/lib/system/freertos/condition.h	/^struct metal_condition {$/;"	s
+metal_condition	libmetal/lib/system/generic/condition.h	/^struct metal_condition {$/;"	s
+metal_condition	libmetal/lib/system/linux/condition.h	/^struct metal_condition {$/;"	s
+metal_condition	libmetal/lib/system/nuttx/condition.h	/^struct metal_condition {$/;"	s
+metal_condition	libmetal/lib/system/zephyr/condition.h	/^struct metal_condition {$/;"	s
+metal_condition_broadcast	libmetal/lib/system/freertos/condition.h	/^static inline int metal_condition_broadcast(struct metal_condition *cv)$/;"	f
+metal_condition_broadcast	libmetal/lib/system/generic/condition.h	/^static inline int metal_condition_broadcast(struct metal_condition *cv)$/;"	f
+metal_condition_broadcast	libmetal/lib/system/linux/condition.h	/^static inline int metal_condition_broadcast(struct metal_condition *cv)$/;"	f
+metal_condition_broadcast	libmetal/lib/system/nuttx/condition.h	/^static inline int metal_condition_broadcast(struct metal_condition *cv)$/;"	f
+metal_condition_broadcast	libmetal/lib/system/zephyr/condition.h	/^static inline int metal_condition_broadcast(struct metal_condition *cv)$/;"	f
+metal_condition_init	libmetal/lib/system/freertos/condition.h	/^static inline void metal_condition_init(struct metal_condition *cv)$/;"	f
+metal_condition_init	libmetal/lib/system/generic/condition.h	/^static inline void metal_condition_init(struct metal_condition *cv)$/;"	f
+metal_condition_init	libmetal/lib/system/linux/condition.h	/^static inline void metal_condition_init(struct metal_condition *cv)$/;"	f
+metal_condition_init	libmetal/lib/system/nuttx/condition.h	/^static inline void metal_condition_init(struct metal_condition *cv)$/;"	f
+metal_condition_init	libmetal/lib/system/zephyr/condition.h	/^static inline void metal_condition_init(struct metal_condition *cv)$/;"	f
+metal_condition_signal	libmetal/lib/system/freertos/condition.h	/^static inline int metal_condition_signal(struct metal_condition *cv)$/;"	f
+metal_condition_signal	libmetal/lib/system/generic/condition.h	/^static inline int metal_condition_signal(struct metal_condition *cv)$/;"	f
+metal_condition_signal	libmetal/lib/system/linux/condition.h	/^static inline int metal_condition_signal(struct metal_condition *cv)$/;"	f
+metal_condition_signal	libmetal/lib/system/nuttx/condition.h	/^static inline int metal_condition_signal(struct metal_condition *cv)$/;"	f
+metal_condition_signal	libmetal/lib/system/zephyr/condition.h	/^static inline int metal_condition_signal(struct metal_condition *cv)$/;"	f
+metal_condition_wait	libmetal/lib/system/freertos/condition.c	/^int metal_condition_wait(struct metal_condition *cv,$/;"	f
+metal_condition_wait	libmetal/lib/system/generic/condition.c	/^int metal_condition_wait(struct metal_condition *cv,$/;"	f
+metal_condition_wait	libmetal/lib/system/linux/condition.c	/^int metal_condition_wait(struct metal_condition *cv,$/;"	f
+metal_condition_wait	libmetal/lib/system/nuttx/condition.c	/^int metal_condition_wait(struct metal_condition *cv,$/;"	f
+metal_condition_wait	libmetal/lib/system/zephyr/condition.c	/^int metal_condition_wait(struct metal_condition *cv,$/;"	f
+metal_container_of	libmetal/lib/utilities.h	80;"	d
+metal_cpu_yield	libmetal/lib/processor/aarch64/cpu.h	/^static inline void metal_cpu_yield(void)$/;"	f
+metal_cpu_yield	libmetal/lib/processor/ceva/cpu.h	15;"	d
+metal_cpu_yield	libmetal/lib/processor/generic/cpu.h	15;"	d
+metal_cpu_yield	libmetal/lib/processor/hosted/cpu.h	/^static inline void metal_cpu_yield(void)$/;"	f
+metal_cpu_yield	libmetal/lib/processor/x86/cpu.h	/^static inline void metal_cpu_yield(void)$/;"	f
+metal_cpu_yield	libmetal/lib/processor/x86_64/cpu.h	/^static inline void metal_cpu_yield(void)$/;"	f
+metal_cpu_yield	libmetal/lib/processor/xtensa/cpu.h	15;"	d
+metal_dbg	libmetal/lib/log.h	106;"	d
+metal_default_log_handler	libmetal/lib/log.c	/^void metal_default_log_handler(enum metal_log_level level,$/;"	f
+metal_device	libmetal/lib/device.h	/^struct metal_device {$/;"	s
+metal_device_close	libmetal/lib/device.c	/^void metal_device_close(struct metal_device *device)$/;"	f
+metal_device_io_region	libmetal/lib/device.h	/^metal_device_io_region(struct metal_device *device, unsigned int index)$/;"	f
+metal_device_open	libmetal/lib/device.c	/^int metal_device_open(const char *bus_name, const char *dev_name,$/;"	f
+metal_dim	libmetal/lib/utilities.h	40;"	d
+metal_div_round_down	libmetal/lib/utilities.h	60;"	d
+metal_div_round_up	libmetal/lib/utilities.h	64;"	d
+metal_dma_map	libmetal/lib/dma.c	/^int metal_dma_map(struct metal_device *dev,$/;"	f
+metal_dma_unmap	libmetal/lib/dma.c	/^void metal_dma_unmap(struct metal_device *dev,$/;"	f
+metal_err	libmetal/lib/log.h	103;"	d
+metal_finish	libmetal/lib/init.c	/^void metal_finish(void)$/;"	f
+metal_fmt	libmetal/lib/log.h	86;"	d
+metal_fmt	libmetal/lib/log.h	88;"	d
+metal_for_each_page_size_down	libmetal/lib/system/linux/sys.h	134;"	d
+metal_for_each_page_size_up	libmetal/lib/system/linux/sys.h	129;"	d
+metal_free_memory	libmetal/lib/alloc.h	/^static inline void metal_free_memory(void *ptr)$/;"	f
+metal_generic_bus	libmetal/lib/device.c	/^struct metal_bus metal_weak metal_generic_bus = {$/;"	v	typeref:struct:metal_weak
+metal_generic_bus	libmetal/lib/system/zephyr/device.c	/^struct metal_bus metal_generic_bus = {$/;"	v	typeref:struct:metal_bus
+metal_generic_default_poll	libmetal/lib/system/freertos/template/sys.c	/^void metal_generic_default_poll(void)$/;"	f
+metal_generic_default_poll	libmetal/lib/system/freertos/xlnx/sys.c	/^void metal_weak metal_generic_default_poll(void)$/;"	f
+metal_generic_default_poll	libmetal/lib/system/generic/template/sys.c	/^void metal_generic_default_poll(void)$/;"	f
+metal_generic_default_poll	libmetal/lib/system/generic/xlnx/microblaze_generic/sys.c	/^void metal_weak metal_generic_default_poll(void)$/;"	f
+metal_generic_default_poll	libmetal/lib/system/generic/xlnx/sys.c	/^void metal_weak metal_generic_default_poll(void)$/;"	f
+metal_generic_default_poll	libmetal/lib/system/zephyr/sys.c	/^void metal_weak metal_generic_default_poll(void)$/;"	f
+metal_generic_dev_dma_map	libmetal/lib/device.c	/^int metal_generic_dev_dma_map(struct metal_bus *bus,$/;"	f
+metal_generic_dev_dma_unmap	libmetal/lib/device.c	/^void metal_generic_dev_dma_unmap(struct metal_bus *bus,$/;"	f
+metal_generic_dev_open	libmetal/lib/device.c	/^int metal_generic_dev_open(struct metal_bus *bus, const char *dev_name,$/;"	f
+metal_generic_dev_sys_open	libmetal/lib/system/freertos/device.c	/^int metal_generic_dev_sys_open(struct metal_device *dev)$/;"	f
+metal_generic_dev_sys_open	libmetal/lib/system/generic/device.c	/^int metal_generic_dev_sys_open(struct metal_device *dev)$/;"	f
+metal_generic_dev_sys_open	libmetal/lib/system/linux/device.c	/^int metal_generic_dev_sys_open(struct metal_device *dev)$/;"	f
+metal_generic_dev_sys_open	libmetal/lib/system/nuttx/device.c	/^int metal_generic_dev_sys_open(struct metal_device *dev)$/;"	f
+metal_generic_dev_sys_open	libmetal/lib/system/zephyr/device.c	/^int metal_generic_dev_sys_open(struct metal_device *dev)$/;"	f
+metal_generic_shmem	libmetal/lib/shmem.h	/^struct metal_generic_shmem {$/;"	s
+metal_get_log_handler	libmetal/lib/log.c	/^metal_log_handler metal_get_log_handler(void)$/;"	f
+metal_get_log_level	libmetal/lib/log.c	/^enum metal_log_level metal_get_log_level(void)$/;"	f
+metal_get_timestamp	libmetal/lib/system/freertos/time.c	/^unsigned long long metal_get_timestamp(void)$/;"	f
+metal_get_timestamp	libmetal/lib/system/generic/time.c	/^unsigned long long metal_get_timestamp(void)$/;"	f
+metal_get_timestamp	libmetal/lib/system/linux/time.c	/^unsigned long long metal_get_timestamp(void)$/;"	f
+metal_get_timestamp	libmetal/lib/system/nuttx/time.c	/^unsigned long long metal_get_timestamp(void)$/;"	f
+metal_get_timestamp	libmetal/lib/system/zephyr/time.c	/^unsigned long long metal_get_timestamp(void)$/;"	f
+metal_info	libmetal/lib/log.h	105;"	d
+metal_init	libmetal/lib/init.c	/^int metal_init(const struct metal_init_params *params)$/;"	f
+metal_init_page_sizes	libmetal/lib/system/linux/init.c	/^static int metal_init_page_sizes(void)$/;"	f	file:
+metal_init_params	libmetal/lib/sys.h	/^struct metal_init_params {$/;"	s
+metal_io_block_read	libmetal/lib/io.c	/^int metal_io_block_read(struct metal_io_region *io, unsigned long offset,$/;"	f
+metal_io_block_read_	libmetal/lib/system/nuttx/io.c	/^static int metal_io_block_read_(struct metal_io_region *io,$/;"	f	file:
+metal_io_block_set	libmetal/lib/io.c	/^int metal_io_block_set(struct metal_io_region *io, unsigned long offset,$/;"	f
+metal_io_block_set_	libmetal/lib/system/nuttx/io.c	/^static void metal_io_block_set_(struct metal_io_region *io,$/;"	f	file:
+metal_io_block_write	libmetal/lib/io.c	/^int metal_io_block_write(struct metal_io_region *io, unsigned long offset,$/;"	f
+metal_io_block_write_	libmetal/lib/system/nuttx/io.c	/^static int metal_io_block_write_(struct metal_io_region *io,$/;"	f	file:
+metal_io_close_	libmetal/lib/system/nuttx/io.c	/^static void metal_io_close_(struct metal_io_region *io)$/;"	f	file:
+metal_io_finish	libmetal/lib/io.h	/^static inline void metal_io_finish(struct metal_io_region *io)$/;"	f
+metal_io_get_ops	libmetal/lib/system/nuttx/io.c	/^struct metal_io_ops *metal_io_get_ops(void)$/;"	f
+metal_io_get_region	libmetal/lib/system/nuttx/io.c	/^struct metal_io_region *metal_io_get_region(void)$/;"	f
+metal_io_init	libmetal/lib/io.c	/^void metal_io_init(struct metal_io_region *io, void *virt,$/;"	f
+metal_io_offset_to_phys_	libmetal/lib/system/nuttx/io.c	/^static metal_phys_addr_t metal_io_offset_to_phys_(struct metal_io_region *io,$/;"	f	file:
+metal_io_ops	libmetal/lib/io.h	/^struct metal_io_ops {$/;"	s
+metal_io_phys	libmetal/lib/io.h	/^metal_io_phys(struct metal_io_region *io, unsigned long offset)$/;"	f
+metal_io_phys_start_	libmetal/lib/system/nuttx/io.c	/^static metal_phys_addr_t metal_io_phys_start_;$/;"	v	file:
+metal_io_phys_to_offset	libmetal/lib/io.h	/^metal_io_phys_to_offset(struct metal_io_region *io, metal_phys_addr_t phys)$/;"	f
+metal_io_phys_to_offset_	libmetal/lib/system/nuttx/io.c	/^static unsigned long metal_io_phys_to_offset_(struct metal_io_region *io,$/;"	f	file:
+metal_io_phys_to_virt	libmetal/lib/io.h	/^metal_io_phys_to_virt(struct metal_io_region *io, metal_phys_addr_t phys)$/;"	f
+metal_io_read	libmetal/lib/io.h	/^metal_io_read(struct metal_io_region *io, unsigned long offset,$/;"	f
+metal_io_read16	libmetal/lib/io.h	308;"	d
+metal_io_read16_explicit	libmetal/lib/io.h	306;"	d
+metal_io_read32	libmetal/lib/io.h	317;"	d
+metal_io_read32_explicit	libmetal/lib/io.h	315;"	d
+metal_io_read64	libmetal/lib/io.h	326;"	d
+metal_io_read64_explicit	libmetal/lib/io.h	324;"	d
+metal_io_read8	libmetal/lib/io.h	299;"	d
+metal_io_read8_explicit	libmetal/lib/io.h	297;"	d
+metal_io_read_	libmetal/lib/system/nuttx/io.c	/^static uint64_t metal_io_read_(struct metal_io_region *io,$/;"	f	file:
+metal_io_region	libmetal/lib/io.h	/^struct metal_io_region {$/;"	s
+metal_io_region_	libmetal/lib/system/nuttx/io.c	/^static struct metal_io_region metal_io_region_ = {$/;"	v	typeref:struct:metal_io_region	file:
+metal_io_region_size	libmetal/lib/io.h	/^static inline size_t metal_io_region_size(struct metal_io_region *io)$/;"	f
+metal_io_virt	libmetal/lib/io.h	/^metal_io_virt(struct metal_io_region *io, unsigned long offset)$/;"	f
+metal_io_virt_to_offset	libmetal/lib/io.h	/^metal_io_virt_to_offset(struct metal_io_region *io, void *virt)$/;"	f
+metal_io_virt_to_phys	libmetal/lib/io.h	/^metal_io_virt_to_phys(struct metal_io_region *io, void *virt)$/;"	f
+metal_io_write	libmetal/lib/io.h	/^metal_io_write(struct metal_io_region *io, unsigned long offset,$/;"	f
+metal_io_write16	libmetal/lib/io.h	312;"	d
+metal_io_write16_explicit	libmetal/lib/io.h	310;"	d
+metal_io_write32	libmetal/lib/io.h	321;"	d
+metal_io_write32_explicit	libmetal/lib/io.h	319;"	d
+metal_io_write64	libmetal/lib/io.h	330;"	d
+metal_io_write64_explicit	libmetal/lib/io.h	328;"	d
+metal_io_write8	libmetal/lib/io.h	303;"	d
+metal_io_write8_explicit	libmetal/lib/io.h	301;"	d
+metal_io_write_	libmetal/lib/system/nuttx/io.c	/^static void metal_io_write_(struct metal_io_region *io,$/;"	f	file:
+metal_irq	libmetal/lib/irq_controller.h	/^struct metal_irq {$/;"	s
+metal_irq_allocate	libmetal/lib/irq.c	/^static int metal_irq_allocate(int irq_base, int irq_num)$/;"	f	file:
+metal_irq_controller	libmetal/lib/irq_controller.h	/^struct metal_irq_controller {$/;"	s
+metal_irq_disable	libmetal/lib/irq.c	/^void metal_irq_disable(unsigned int vector)$/;"	f
+metal_irq_enable	libmetal/lib/irq.c	/^void metal_irq_enable(unsigned int vector)$/;"	f
+metal_irq_get_controller	libmetal/lib/irq.c	/^static struct metal_irq_controller *metal_irq_get_controller(int irq)$/;"	f	file:
+metal_irq_handle	libmetal/lib/irq_controller.h	/^int metal_irq_handle(struct metal_irq *irq_data, int irq)$/;"	f
+metal_irq_handler	libmetal/lib/irq.h	/^typedef int (*metal_irq_handler) (int irq, void *arg);$/;"	t
+metal_irq_register	libmetal/lib/irq.c	/^int metal_irq_register(int irq,$/;"	f
+metal_irq_register_controller	libmetal/lib/irq.c	/^int metal_irq_register_controller(struct metal_irq_controller *cntr)$/;"	f
+metal_irq_restore_enable	libmetal/lib/system/freertos/irq.c	/^void metal_irq_restore_enable(unsigned int flags)$/;"	f
+metal_irq_restore_enable	libmetal/lib/system/generic/irq.c	/^void metal_irq_restore_enable(unsigned int flags)$/;"	f
+metal_irq_restore_enable	libmetal/lib/system/linux/irq.c	/^void metal_irq_restore_enable(unsigned int flags)$/;"	f
+metal_irq_restore_enable	libmetal/lib/system/nuttx/irq.c	/^void metal_irq_restore_enable(unsigned int flags)$/;"	f
+metal_irq_restore_enable	libmetal/lib/system/zephyr/irq.c	/^void metal_irq_restore_enable(unsigned int flags)$/;"	f
+metal_irq_save_disable	libmetal/lib/system/freertos/irq.c	/^unsigned int metal_irq_save_disable(void)$/;"	f
+metal_irq_save_disable	libmetal/lib/system/generic/irq.c	/^unsigned int metal_irq_save_disable(void)$/;"	f
+metal_irq_save_disable	libmetal/lib/system/linux/irq.c	/^unsigned int metal_irq_save_disable(void)$/;"	f
+metal_irq_save_disable	libmetal/lib/system/nuttx/irq.c	/^unsigned int metal_irq_save_disable(void)$/;"	f
+metal_irq_save_disable	libmetal/lib/system/zephyr/irq.c	/^unsigned int metal_irq_save_disable(void)$/;"	f
+metal_irq_set_enable	libmetal/lib/irq_controller.h	/^typedef void (*metal_irq_set_enable) (struct metal_irq_controller *irq_cntr,$/;"	t
+metal_irq_t	libmetal/lib/sys.h	/^typedef int metal_irq_t;$/;"	t
+metal_irq_unregister	libmetal/lib/irq.h	/^void metal_irq_unregister(int irq)$/;"	f
+metal_linux_bus_close	libmetal/lib/system/linux/device.c	/^static void metal_linux_bus_close(struct metal_bus *bus)$/;"	f	file:
+metal_linux_bus_finish	libmetal/lib/system/linux/device.c	/^void metal_linux_bus_finish(void)$/;"	f
+metal_linux_bus_init	libmetal/lib/system/linux/device.c	/^int metal_linux_bus_init(void)$/;"	f
+metal_linux_bus_ops	libmetal/lib/system/linux/device.c	/^static const struct metal_bus_ops metal_linux_bus_ops = {$/;"	v	typeref:struct:metal_bus_ops	file:
+metal_linux_dev_close	libmetal/lib/system/linux/device.c	/^static void metal_linux_dev_close(struct metal_bus *bus,$/;"	f	file:
+metal_linux_dev_dma_map	libmetal/lib/system/linux/device.c	/^static int metal_linux_dev_dma_map(struct metal_bus *bus,$/;"	f	file:
+metal_linux_dev_dma_unmap	libmetal/lib/system/linux/device.c	/^static void metal_linux_dev_dma_unmap(struct metal_bus *bus,$/;"	f	file:
+metal_linux_dev_irq_ack	libmetal/lib/system/linux/device.c	/^static void metal_linux_dev_irq_ack(struct metal_bus *bus,$/;"	f	file:
+metal_linux_dev_open	libmetal/lib/system/linux/device.c	/^static int metal_linux_dev_open(struct metal_bus *bus,$/;"	f	file:
+metal_linux_get_device_property	libmetal/lib/system/linux/device.c	/^int metal_linux_get_device_property(struct metal_device *device,$/;"	f
+metal_linux_irq_handling	libmetal/lib/system/linux/irq.c	/^static void *metal_linux_irq_handling(void *args)$/;"	f	file:
+metal_linux_irq_init	libmetal/lib/system/linux/irq.c	/^int metal_linux_irq_init(void)$/;"	f
+metal_linux_irq_notify	libmetal/lib/system/linux/irq.c	/^static int metal_linux_irq_notify(void)$/;"	f	file:
+metal_linux_irq_register_dev	libmetal/lib/system/linux/irq.c	/^void metal_linux_irq_register_dev(struct metal_device *dev, int irq)$/;"	f
+metal_linux_irq_set_enable	libmetal/lib/system/linux/irq.c	/^static void metal_linux_irq_set_enable(struct metal_irq_controller *irq_cntr,$/;"	f	file:
+metal_linux_irq_shutdown	libmetal/lib/system/linux/irq.c	/^void metal_linux_irq_shutdown(void)$/;"	f
+metal_linux_probe_bus	libmetal/lib/system/linux/device.c	/^static int metal_linux_probe_bus(struct linux_bus *lbus)$/;"	f	file:
+metal_linux_probe_driver	libmetal/lib/system/linux/device.c	/^static int metal_linux_probe_driver(struct linux_bus *lbus,$/;"	f	file:
+metal_linux_register_bus	libmetal/lib/system/linux/device.c	/^static int metal_linux_register_bus(struct linux_bus *lbus)$/;"	f	file:
+metal_list	libmetal/lib/list.h	/^struct metal_list {$/;"	s
+metal_list_add_after	libmetal/lib/list.h	/^static inline void metal_list_add_after(struct metal_list *node,$/;"	f
+metal_list_add_before	libmetal/lib/list.h	/^static inline void metal_list_add_before(struct metal_list *node,$/;"	f
+metal_list_add_head	libmetal/lib/list.h	/^static inline void metal_list_add_head(struct metal_list *list,$/;"	f
+metal_list_add_tail	libmetal/lib/list.h	/^static inline void metal_list_add_tail(struct metal_list *list,$/;"	f
+metal_list_del	libmetal/lib/list.h	/^static inline void metal_list_del(struct metal_list *node)$/;"	f
+metal_list_find_node	libmetal/lib/list.h	/^static inline bool metal_list_find_node(struct metal_list *list,$/;"	f
+metal_list_first	libmetal/lib/list.h	/^static inline struct metal_list *metal_list_first(struct metal_list *list)$/;"	f
+metal_list_for_each	libmetal/lib/list.h	102;"	d
+metal_list_for_each_safe	libmetal/lib/list.h	114;"	d
+metal_list_init	libmetal/lib/list.h	/^static inline void metal_list_init(struct metal_list *list)$/;"	f
+metal_list_is_empty	libmetal/lib/list.h	/^static inline int metal_list_is_empty(struct metal_list *list)$/;"	f
+metal_log	libmetal/lib/log.h	98;"	d
+metal_log2	libmetal/lib/utilities.h	/^static inline unsigned long metal_log2(unsigned long in)$/;"	f
+metal_log_handler	libmetal/lib/log.h	/^typedef void (*metal_log_handler)(enum metal_log_level level,$/;"	t
+metal_log_level	libmetal/lib/log.h	/^enum metal_log_level {$/;"	g
+metal_machine_cache_flush	libmetal/lib/system/freertos/template/sys.c	/^void metal_machine_cache_flush(void *addr, unsigned int len)$/;"	f
+metal_machine_cache_flush	libmetal/lib/system/freertos/xlnx/sys.c	/^void metal_machine_cache_flush(void *addr, unsigned int len)$/;"	f
+metal_machine_cache_flush	libmetal/lib/system/generic/template/sys.c	/^void metal_machine_cache_flush(void *addr, unsigned int len)$/;"	f
+metal_machine_cache_flush	libmetal/lib/system/generic/xlnx/microblaze_generic/sys.c	/^void metal_machine_cache_flush(void *addr, unsigned int len)$/;"	f
+metal_machine_cache_flush	libmetal/lib/system/generic/xlnx/sys.c	/^void metal_machine_cache_flush(void *addr, unsigned int len)$/;"	f
+metal_machine_cache_invalidate	libmetal/lib/system/freertos/template/sys.c	/^void metal_machine_cache_invalidate(void *addr, unsigned int len)$/;"	f
+metal_machine_cache_invalidate	libmetal/lib/system/freertos/xlnx/sys.c	/^void metal_machine_cache_invalidate(void *addr, unsigned int len)$/;"	f
+metal_machine_cache_invalidate	libmetal/lib/system/generic/template/sys.c	/^void metal_machine_cache_invalidate(void *addr, unsigned int len)$/;"	f
+metal_machine_cache_invalidate	libmetal/lib/system/generic/xlnx/microblaze_generic/sys.c	/^void metal_machine_cache_invalidate(void *addr, unsigned int len)$/;"	f
+metal_machine_cache_invalidate	libmetal/lib/system/generic/xlnx/sys.c	/^void metal_machine_cache_invalidate(void *addr, unsigned int len)$/;"	f
+metal_machine_io_mem_map	libmetal/lib/system/freertos/template/sys.c	/^void *metal_machine_io_mem_map(void *va, metal_phys_addr_t pa,$/;"	f
+metal_machine_io_mem_map	libmetal/lib/system/freertos/xlnx/sys.c	/^void *metal_machine_io_mem_map(void *va, metal_phys_addr_t pa,$/;"	f
+metal_machine_io_mem_map	libmetal/lib/system/generic/template/sys.c	/^void *metal_machine_io_mem_map(void *va, metal_phys_addr_t pa,$/;"	f
+metal_machine_io_mem_map	libmetal/lib/system/generic/xlnx/microblaze_generic/sys.c	/^void *metal_machine_io_mem_map(void *va, metal_phys_addr_t pa,$/;"	f
+metal_machine_io_mem_map	libmetal/lib/system/generic/xlnx/sys.c	/^void *metal_machine_io_mem_map(void *va, metal_phys_addr_t pa,$/;"	f
+metal_machine_io_mem_map	libmetal/lib/system/zephyr/io.h	/^static inline void *metal_machine_io_mem_map(void *va, metal_phys_addr_t pa,$/;"	f
+metal_map	libmetal/lib/system/linux/utilities.c	/^int metal_map(int fd, off_t offset, size_t size, int expand, int flags,$/;"	f
+metal_max	libmetal/lib/utilities.h	46;"	d
+metal_min	libmetal/lib/utilities.h	43;"	d
+metal_mktemp	libmetal/lib/system/linux/utilities.c	/^int metal_mktemp(char *template, int fifo)$/;"	f
+metal_mktemp_template	libmetal/lib/system/linux/utilities.c	/^void metal_mktemp_template(char template[PATH_MAX], const char *name)$/;"	f
+metal_mktemp_unlinked	libmetal/lib/system/linux/utilities.c	/^int metal_mktemp_unlinked(char *template)$/;"	f
+metal_mlock	libmetal/lib/system/linux/utilities.c	/^int metal_mlock(void *mem, size_t size)$/;"	f
+metal_mutex_acquire	libmetal/lib/mutex.h	/^static inline void metal_mutex_acquire(metal_mutex_t *mutex)$/;"	f
+metal_mutex_deinit	libmetal/lib/mutex.h	/^static inline void metal_mutex_deinit(metal_mutex_t *mutex)$/;"	f
+metal_mutex_init	libmetal/lib/mutex.h	/^static inline void metal_mutex_init(metal_mutex_t *mutex)$/;"	f
+metal_mutex_is_acquired	libmetal/lib/mutex.h	/^static inline int metal_mutex_is_acquired(metal_mutex_t *mutex)$/;"	f
+metal_mutex_release	libmetal/lib/mutex.h	/^static inline void metal_mutex_release(metal_mutex_t *mutex)$/;"	f
+metal_mutex_t	libmetal/lib/system/freertos/mutex.h	/^} metal_mutex_t;$/;"	t	typeref:struct:__anon3
+metal_mutex_t	libmetal/lib/system/generic/mutex.h	/^} metal_mutex_t;$/;"	t	typeref:struct:__anon1
+metal_mutex_t	libmetal/lib/system/linux/mutex.h	/^} metal_mutex_t;$/;"	t	typeref:struct:__anon2
+metal_mutex_t	libmetal/lib/system/nuttx/mutex.h	/^typedef mutex_t metal_mutex_t;$/;"	t
+metal_mutex_t	libmetal/lib/system/zephyr/mutex.h	/^typedef struct k_sem metal_mutex_t;$/;"	t	typeref:struct:k_sem
+metal_mutex_try_acquire	libmetal/lib/mutex.h	/^static inline int metal_mutex_try_acquire(metal_mutex_t *mutex)$/;"	f
+metal_offset_of	libmetal/lib/utilities.h	76;"	d
+metal_open	libmetal/lib/system/linux/utilities.c	/^int metal_open(const char *path, int shm)$/;"	f
+metal_open_unlinked	libmetal/lib/system/linux/utilities.c	/^int metal_open_unlinked(const char *path, int shm)$/;"	f
+metal_page_size	libmetal/lib/system/linux/sys.h	/^struct metal_page_size {$/;"	s
+metal_pagesize_compare	libmetal/lib/system/linux/init.c	/^static int metal_pagesize_compare(const void *_a, const void *_b)$/;"	f	file:
+metal_phys_addr_t	libmetal/lib/sys.h	/^typedef unsigned long metal_phys_addr_t;$/;"	t
+metal_ptr_align_down	libmetal/lib/utilities.h	68;"	d
+metal_ptr_align_up	libmetal/lib/utilities.h	72;"	d
+metal_randomize_string	libmetal/lib/system/linux/utilities.c	/^void metal_randomize_string(char *template)$/;"	f
+metal_register_generic_device	libmetal/lib/device.c	/^int metal_register_generic_device(struct metal_device *device)$/;"	f
+metal_set_log_handler	libmetal/lib/log.c	/^void metal_set_log_handler(metal_log_handler handler)$/;"	f
+metal_set_log_level	libmetal/lib/log.c	/^void metal_set_log_level(enum metal_log_level level)$/;"	f
+metal_sg	libmetal/lib/dma.h	/^struct metal_sg {$/;"	s
+metal_shmem	libmetal/lib/system/linux/shmem.c	/^struct metal_shmem {$/;"	s	file:
+metal_shmem_io_close	libmetal/lib/system/linux/shmem.c	/^static void metal_shmem_io_close(struct metal_io_region *io)$/;"	f	file:
+metal_shmem_io_ops	libmetal/lib/system/linux/shmem.c	/^static const struct metal_io_ops metal_shmem_io_ops = {$/;"	v	typeref:struct:metal_io_ops	file:
+metal_shmem_open	libmetal/lib/system/freertos/shmem.c	/^int metal_shmem_open(const char *name, size_t size,$/;"	f
+metal_shmem_open	libmetal/lib/system/generic/shmem.c	/^int metal_shmem_open(const char *name, size_t size,$/;"	f
+metal_shmem_open	libmetal/lib/system/linux/shmem.c	/^int metal_shmem_open(const char *name, size_t size,$/;"	f
+metal_shmem_open	libmetal/lib/system/nuttx/shmem.c	/^int metal_shmem_open(const char *name, size_t size,$/;"	f
+metal_shmem_open	libmetal/lib/system/zephyr/shmem.c	/^int metal_shmem_open(const char *name, size_t size,$/;"	f
+metal_shmem_open_generic	libmetal/lib/shmem.c	/^int metal_shmem_open_generic(const char *name, size_t size,$/;"	f
+metal_shmem_register_generic	libmetal/lib/shmem.c	/^int metal_shmem_register_generic(struct metal_generic_shmem *shmem)$/;"	f
+metal_shmem_try_map	libmetal/lib/system/linux/shmem.c	/^static int metal_shmem_try_map(struct metal_page_size *ps, int fd, size_t size,$/;"	f	file:
+metal_sign	libmetal/lib/utilities.h	49;"	d
+metal_sleep_usec	libmetal/lib/sleep.h	/^static inline int metal_sleep_usec(unsigned int usec)$/;"	f
+metal_softirq_allocate	libmetal/lib/softirq.c	/^int metal_softirq_allocate(int num)$/;"	f
+metal_softirq_avail	libmetal/lib/softirq.c	/^static int metal_softirq_avail;$/;"	v	file:
+metal_softirq_dispatch	libmetal/lib/softirq.c	/^void metal_softirq_dispatch(void)$/;"	f
+metal_softirq_init	libmetal/lib/softirq.c	/^int metal_softirq_init(void)$/;"	f
+metal_softirq_set	libmetal/lib/softirq.c	/^void metal_softirq_set(int irq)$/;"	f
+metal_softirq_set_enable	libmetal/lib/softirq.c	/^static void metal_softirq_set_enable(struct metal_irq_controller *cntr,$/;"	f	file:
+metal_spinlock	libmetal/lib/spinlock.h	/^struct metal_spinlock {$/;"	s
+metal_spinlock_acquire	libmetal/lib/spinlock.h	/^static inline void metal_spinlock_acquire(struct metal_spinlock *slock)$/;"	f
+metal_spinlock_init	libmetal/lib/spinlock.h	/^static inline void metal_spinlock_init(struct metal_spinlock *slock)$/;"	f
+metal_spinlock_release	libmetal/lib/spinlock.h	/^static inline void metal_spinlock_release(struct metal_spinlock *slock)$/;"	f
+metal_state	libmetal/lib/system/freertos/sys.h	/^struct metal_state {$/;"	s
+metal_state	libmetal/lib/system/generic/sys.h	/^struct metal_state {$/;"	s
+metal_state	libmetal/lib/system/linux/sys.h	/^struct metal_state {$/;"	s
+metal_state	libmetal/lib/system/nuttx/sys.h	/^struct metal_state {$/;"	s
+metal_state	libmetal/lib/system/zephyr/sys.h	/^struct metal_state {$/;"	s
+metal_sys_assert	libmetal/lib/system/freertos/assert.h	24;"	d
+metal_sys_assert	libmetal/lib/system/generic/assert.h	25;"	d
+metal_sys_assert	libmetal/lib/system/linux/assert.h	25;"	d
+metal_sys_assert	libmetal/lib/system/nuttx/assert.h	25;"	d
+metal_sys_assert	libmetal/lib/system/zephyr/assert.h	25;"	d
+metal_sys_finish	libmetal/lib/system/freertos/init.c	/^void metal_sys_finish(void)$/;"	f
+metal_sys_finish	libmetal/lib/system/generic/init.c	/^void metal_sys_finish(void)$/;"	f
+metal_sys_finish	libmetal/lib/system/linux/init.c	/^void metal_sys_finish(void)$/;"	f
+metal_sys_finish	libmetal/lib/system/nuttx/init.c	/^void metal_sys_finish(void)$/;"	f
+metal_sys_finish	libmetal/lib/system/zephyr/init.c	/^void metal_sys_finish(void)$/;"	f
+metal_sys_init	libmetal/lib/system/freertos/init.c	/^int metal_sys_init(const struct metal_init_params *params)$/;"	f
+metal_sys_init	libmetal/lib/system/generic/init.c	/^int metal_sys_init(const struct metal_init_params *params)$/;"	f
+metal_sys_init	libmetal/lib/system/linux/init.c	/^int metal_sys_init(const struct metal_init_params *params)$/;"	f
+metal_sys_init	libmetal/lib/system/nuttx/init.c	/^int metal_sys_init(const struct metal_init_params *params)$/;"	f
+metal_sys_init	libmetal/lib/system/zephyr/init.c	/^int metal_sys_init(const struct metal_init_params *params)$/;"	f
+metal_sys_io_mem_map	libmetal/lib/system/freertos/io.c	/^void metal_sys_io_mem_map(struct metal_io_region *io)$/;"	f
+metal_sys_io_mem_map	libmetal/lib/system/generic/io.c	/^void metal_sys_io_mem_map(struct metal_io_region *io)$/;"	f
+metal_sys_io_mem_map	libmetal/lib/system/linux/io.h	27;"	d
+metal_sys_io_mem_map	libmetal/lib/system/nuttx/io.h	/^static inline void metal_sys_io_mem_map(struct metal_io_region *io)$/;"	f
+metal_sys_io_mem_map	libmetal/lib/system/zephyr/io.h	/^static inline void metal_sys_io_mem_map(struct metal_io_region *io)$/;"	f
+metal_uio_dev_bind	libmetal/lib/system/linux/device.c	/^static int metal_uio_dev_bind(struct linux_device *ldev,$/;"	f	file:
+metal_uio_dev_close	libmetal/lib/system/linux/device.c	/^static void metal_uio_dev_close(struct linux_bus *lbus,$/;"	f	file:
+metal_uio_dev_dma_map	libmetal/lib/system/linux/device.c	/^static int metal_uio_dev_dma_map(struct linux_bus *lbus,$/;"	f	file:
+metal_uio_dev_dma_unmap	libmetal/lib/system/linux/device.c	/^static void metal_uio_dev_dma_unmap(struct linux_bus *lbus,$/;"	f	file:
+metal_uio_dev_irq_ack	libmetal/lib/system/linux/device.c	/^static void metal_uio_dev_irq_ack(struct linux_bus *lbus,$/;"	f	file:
+metal_uio_dev_open	libmetal/lib/system/linux/device.c	/^static int metal_uio_dev_open(struct linux_bus *lbus, struct linux_device *ldev)$/;"	f	file:
+metal_uio_read_map_attr	libmetal/lib/system/linux/device.c	/^static int metal_uio_read_map_attr(struct linux_device *ldev,$/;"	f	file:
+metal_unmap	libmetal/lib/system/linux/utilities.c	/^int metal_unmap(void *mem, size_t size)$/;"	f
+metal_unused	libmetal/lib/utilities.h	37;"	d
+metal_ver	libmetal/lib/version.c	/^const char *metal_ver(void)$/;"	f
+metal_ver_major	libmetal/lib/version.c	/^int metal_ver_major(void)$/;"	f
+metal_ver_minor	libmetal/lib/version.c	/^int metal_ver_minor(void)$/;"	f
+metal_ver_patch	libmetal/lib/version.c	/^int metal_ver_patch(void)$/;"	f
+metal_virt2phys	libmetal/lib/system/linux/utilities.c	/^int metal_virt2phys(void *addr, unsigned long *phys)$/;"	f
+metal_wait_usec	libmetal/lib/system/zephyr/sys.h	/^static inline void metal_wait_usec(uint32_t usec_to_wait)$/;"	f
+metal_warn	libmetal/lib/log.h	104;"	d
+metal_weak	libmetal/lib/compiler/gcc/compiler.h	21;"	d
+metal_weak	libmetal/lib/compiler/iar/compiler.h	21;"	d
+metal_xlnx_irq_init	libmetal/lib/system/freertos/xlnx/irq.c	/^int metal_xlnx_irq_init(void)$/;"	f
+metal_xlnx_irq_init	libmetal/lib/system/generic/xlnx/irq.c	/^int metal_xlnx_irq_init(void)$/;"	f
+metal_xlnx_irq_isr	libmetal/lib/system/freertos/xlnx/irq.c	/^void metal_xlnx_irq_isr(void *arg)$/;"	f
+metal_xlnx_irq_isr	libmetal/lib/system/generic/xlnx/irq.c	/^void metal_xlnx_irq_isr(void *arg)$/;"	f
+metal_xlnx_irq_set_enable	libmetal/lib/system/freertos/xlnx/irq.c	/^static void metal_xlnx_irq_set_enable(struct metal_irq_controller *irq_cntr,$/;"	f	file:
+metal_xlnx_irq_set_enable	libmetal/lib/system/generic/xlnx/irq.c	/^static void metal_xlnx_irq_set_enable(struct metal_irq_controller *irq_cntr,$/;"	f	file:
+metal_zephyr_allocate_memory	libmetal/lib/system/zephyr/alloc.c	/^void *metal_weak metal_zephyr_allocate_memory(unsigned int size)$/;"	f
+metal_zephyr_free_memory	libmetal/lib/system/zephyr/alloc.c	/^void metal_weak metal_zephyr_free_memory(void *ptr)$/;"	f
+metal_zephyr_log_handler	libmetal/lib/system/zephyr/log.c	/^void metal_zephyr_log_handler(enum metal_log_level level,$/;"	f
+mmap_flags	libmetal/lib/system/linux/sys.h	/^	int mmap_flags;$/;"	m	struct:metal_page_size
+mod_name	libmetal/lib/system/linux/device.c	/^	const char		*mod_name;$/;"	m	struct:linux_driver	file:
+mptr	libmetal/lib/system/generic/condition.h	/^	atomic_uintptr_t mptr; \/**< mutex pointer.$/;"	m	struct:metal_condition
+mptr	libmetal/lib/system/linux/condition.h	/^	atomic_uintptr_t mptr; \/**< mutex pointer.$/;"	m	struct:metal_condition
+mptr	libmetal/lib/system/zephyr/condition.h	/^	atomic_uintptr_t mptr; \/**< mutex pointer.$/;"	m	struct:metal_condition
+name	libmetal/lib/device.h	/^	const char		*name;$/;"	m	struct:metal_bus
+name	libmetal/lib/device.h	/^	const char             *name;       \/**< Device name *\/$/;"	m	struct:metal_device
+name	libmetal/lib/shmem.h	/^	const char		*name;$/;"	m	struct:metal_generic_shmem
+next	libmetal/lib/list.h	/^	struct metal_list *next, *prev;$/;"	m	struct:metal_list	typeref:struct:metal_list::metal_list
+node	libmetal/lib/device.h	/^	struct metal_list	node;$/;"	m	struct:metal_bus	typeref:struct:metal_bus::metal_list
+node	libmetal/lib/device.h	/^	struct metal_list      node;       \/**< Node on bus' list of devices *\/$/;"	m	struct:metal_device	typeref:struct:metal_device::metal_list
+node	libmetal/lib/irq_controller.h	/^	struct metal_list node; \/**< list node *\/$/;"	m	struct:metal_irq_controller	typeref:struct:metal_irq_controller::metal_list
+node	libmetal/lib/shmem.h	/^	struct metal_list	node;$/;"	m	struct:metal_generic_shmem	typeref:struct:metal_generic_shmem::metal_list
+num_page_sizes	libmetal/lib/system/linux/sys.h	/^	int			num_page_sizes;$/;"	m	struct:metal_state
+num_regions	libmetal/lib/device.h	/^	unsigned int           num_regions; \/**< Number of I\/O regions in$/;"	m	struct:metal_device
+offset_to_phys	libmetal/lib/io.h	/^	metal_phys_addr_t (*offset_to_phys)(struct metal_io_region *io,$/;"	m	struct:metal_io_ops
+ops	libmetal/lib/device.h	/^	struct metal_bus_ops	ops;$/;"	m	struct:metal_bus	typeref:struct:metal_bus::metal_bus_ops
+ops	libmetal/lib/io.h	/^	struct metal_io_ops	ops;        \/**< I\/O region operations *\/$/;"	m	struct:metal_io_region	typeref:struct:metal_io_region::metal_io_ops
+override	libmetal/lib/system/linux/device.c	/^	struct sysfs_attribute		*override;$/;"	m	struct:linux_device	typeref:struct:linux_device::sysfs_attribute	file:
+page_mask	libmetal/lib/io.h	/^	metal_phys_addr_t	page_mask;  \/**< page mask of I\/O region *\/$/;"	m	struct:metal_io_region
+page_shift	libmetal/lib/io.h	/^	unsigned long		page_shift; \/**< page shift of I\/O region *\/$/;"	m	struct:metal_io_region
+page_shift	libmetal/lib/system/linux/sys.h	/^	unsigned long		page_shift;$/;"	m	struct:metal_state
+page_shift	libmetal/lib/system/linux/sys.h	/^	unsigned long page_shift;$/;"	m	struct:metal_page_size
+page_size	libmetal/lib/system/linux/sys.h	/^	size_t	page_size;$/;"	m	struct:metal_page_size
+page_size	libmetal/lib/system/linux/sys.h	/^	unsigned long		page_size;$/;"	m	struct:metal_state
+page_sizes	libmetal/lib/system/linux/sys.h	/^	struct metal_page_size	page_sizes[MAX_PAGE_SIZES];$/;"	m	struct:metal_state	typeref:struct:metal_state::metal_page_size
+pagemap_fd	libmetal/lib/system/linux/sys.h	/^	int			pagemap_fd;$/;"	m	struct:metal_state
+path	libmetal/lib/system/linux/sys.h	/^	char path[PATH_MAX];$/;"	m	struct:metal_page_size
+phys	libmetal/lib/system/linux/shmem.c	/^	metal_phys_addr_t	*phys;$/;"	m	struct:metal_shmem	file:
+phys_to_offset	libmetal/lib/io.h	/^	unsigned long	(*phys_to_offset)(struct metal_io_region *io,$/;"	m	struct:metal_io_ops
+physmap	libmetal/lib/io.h	/^	const metal_phys_addr_t	*physmap;   \/**< table of base physical address$/;"	m	struct:metal_io_region
+prev	libmetal/lib/list.h	/^	struct metal_list *next, *prev;$/;"	m	struct:metal_list	typeref:struct:metal_list::
+read	libmetal/lib/io.h	/^	uint64_t	(*read)(struct metal_io_region *io,$/;"	m	struct:metal_io_ops
+ref_count	libmetal/lib/sys.h	/^	int				ref_count;$/;"	m	struct:metal_common_state
+region_phys	libmetal/lib/system/linux/device.c	/^	metal_phys_addr_t		region_phys[METAL_MAX_DEVICE_REGIONS];$/;"	m	struct:linux_device	file:
+regions	libmetal/lib/device.h	/^	struct metal_io_region regions[METAL_MAX_DEVICE_REGIONS]; \/**< Array of$/;"	m	struct:metal_device	typeref:struct:metal_device::metal_io_region
+restrict	libmetal/lib/compiler/gcc/compiler.h	19;"	d
+restrict	libmetal/lib/compiler/iar/compiler.h	19;"	d
+sbus	libmetal/lib/system/linux/device.c	/^	struct sysfs_bus	*sbus;$/;"	m	struct:linux_bus	typeref:struct:linux_bus::sysfs_bus	file:
+sdev	libmetal/lib/system/linux/device.c	/^	struct sysfs_device		*sdev;$/;"	m	struct:linux_device	typeref:struct:linux_device::sysfs_device	file:
+sdrv	libmetal/lib/system/linux/device.c	/^	struct sysfs_driver	*sdrv;$/;"	m	struct:linux_driver	typeref:struct:linux_driver::sysfs_driver	file:
+size	libmetal/lib/io.h	/^	size_t			size;       \/**< size of the I\/O region *\/$/;"	m	struct:metal_io_region
+sys_irq_change	libmetal/lib/system/generic/xlnx/microblaze_generic/sys.c	/^static void sys_irq_change(unsigned int vector, int is_enable)$/;"	f	file:
+sys_irq_disable	libmetal/lib/system/freertos/template/sys.c	/^void sys_irq_disable(unsigned int vector)$/;"	f
+sys_irq_disable	libmetal/lib/system/freertos/xlnx/sys.h	/^static inline void sys_irq_disable(unsigned int vector)$/;"	f
+sys_irq_disable	libmetal/lib/system/generic/template/sys.c	/^void sys_irq_disable(unsigned int vector)$/;"	f
+sys_irq_disable	libmetal/lib/system/generic/xlnx/microblaze_generic/sys.c	/^void metal_weak sys_irq_disable(unsigned int vector)$/;"	f
+sys_irq_disable	libmetal/lib/system/generic/xlnx/sys.h	/^static inline void sys_irq_disable(unsigned int vector)$/;"	f
+sys_irq_enable	libmetal/lib/system/freertos/template/sys.c	/^void sys_irq_enable(unsigned int vector)$/;"	f
+sys_irq_enable	libmetal/lib/system/freertos/xlnx/sys.h	/^static inline void sys_irq_enable(unsigned int vector)$/;"	f
+sys_irq_enable	libmetal/lib/system/generic/template/sys.c	/^void sys_irq_enable(unsigned int vector)$/;"	f
+sys_irq_enable	libmetal/lib/system/generic/xlnx/microblaze_generic/sys.c	/^void metal_weak sys_irq_enable(unsigned int vector)$/;"	f
+sys_irq_enable	libmetal/lib/system/generic/xlnx/sys.h	/^static inline void sys_irq_enable(unsigned int vector)$/;"	f
+sys_irq_restore_enable	libmetal/lib/system/freertos/template/sys.c	/^void sys_irq_restore_enable(unsigned int flags)$/;"	f
+sys_irq_restore_enable	libmetal/lib/system/freertos/xlnx/sys.c	/^void sys_irq_restore_enable(unsigned int flags)$/;"	f
+sys_irq_restore_enable	libmetal/lib/system/generic/template/sys.c	/^void sys_irq_restore_enable(unsigned int flags)$/;"	f
+sys_irq_restore_enable	libmetal/lib/system/generic/xlnx/microblaze_generic/sys.c	/^void sys_irq_restore_enable(unsigned int flags)$/;"	f
+sys_irq_restore_enable	libmetal/lib/system/generic/xlnx/sys.c	/^void sys_irq_restore_enable(unsigned int flags)$/;"	f
+sys_irq_save_disable	libmetal/lib/system/freertos/template/sys.c	/^unsigned int sys_irq_save_disable(void)$/;"	f
+sys_irq_save_disable	libmetal/lib/system/freertos/xlnx/sys.c	/^unsigned int sys_irq_save_disable(void)$/;"	f
+sys_irq_save_disable	libmetal/lib/system/generic/template/sys.c	/^unsigned int sys_irq_save_disable(void)$/;"	f
+sys_irq_save_disable	libmetal/lib/system/generic/xlnx/microblaze_generic/sys.c	/^unsigned int sys_irq_save_disable(void)$/;"	f
+sys_irq_save_disable	libmetal/lib/system/generic/xlnx/sys.c	/^unsigned int sys_irq_save_disable(void)$/;"	f
+sysfs_path	libmetal/lib/system/linux/sys.h	/^	const char		*sysfs_path;$/;"	m	struct:metal_state
+tmp_path	libmetal/lib/system/linux/sys.h	/^	const char		*tmp_path;$/;"	m	struct:metal_state
+to_linux_bus	libmetal/lib/system/linux/device.c	/^static struct linux_bus *to_linux_bus(struct metal_bus *bus)$/;"	f	file:
+to_linux_device	libmetal/lib/system/linux/device.c	/^static struct linux_device *to_linux_device(struct metal_device *device)$/;"	f	file:
+v	libmetal/lib/spinlock.h	/^	atomic_flag v;$/;"	m	struct:metal_spinlock
+v	libmetal/lib/system/freertos/condition.h	/^	atomic_int v; \/**< condition variable value. *\/$/;"	m	struct:metal_condition
+v	libmetal/lib/system/generic/condition.h	/^	atomic_int v; \/**< condition variable value. *\/$/;"	m	struct:metal_condition
+v	libmetal/lib/system/generic/mutex.h	/^	atomic_int v;$/;"	m	struct:__anon1
+v	libmetal/lib/system/linux/mutex.h	/^	atomic_int v;$/;"	m	struct:__anon2
+v	libmetal/lib/system/zephyr/condition.h	/^	atomic_int v; \/**< condition variable value. *\/$/;"	m	struct:metal_condition
+virt	libmetal/lib/dma.h	/^	void *virt; \/**< CPU virtual address *\/$/;"	m	struct:metal_sg
+virt	libmetal/lib/io.h	/^	void			*virt;      \/**< base virtual address *\/$/;"	m	struct:metal_io_region
+waiters	libmetal/lib/system/linux/condition.h	/^	atomic_int waiters;    \/**< number of waiters. *\/$/;"	m	struct:metal_condition
+wakeups	libmetal/lib/system/linux/condition.h	/^	atomic_int wakeups;    \/**< number of wakeups. *\/$/;"	m	struct:metal_condition
+write	libmetal/lib/io.h	/^	void		(*write)(struct metal_io_region *io,$/;"	m	struct:metal_io_ops
