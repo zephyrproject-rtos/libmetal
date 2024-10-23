@@ -75,11 +75,11 @@ option (WITH_DOC "Build with documentation" ON)
 
 set_property (GLOBAL PROPERTY "PROJECT_EC_FLAGS" -Wall -Werror -Wextra)
 
-if ("${PROJECT_MACHINE}" STREQUAL "zynqmp_a53" OR
-    "${PROJECT_MACHINE}" STREQUAL "zynqmp_a72" OR
-    "${PROJECT_MACHINE}" STREQUAL "zynqmp_a78" OR
-    "${PROJECT_MACHINE}" STREQUAL "zynqmp_r5"  OR
-    "${PROJECT_MACHINE}" STREQUAL "microblaze_generic"  OR
-    "${PROJECT_MACHINE}" STREQUAL "zynq7")
+if (NOT DEFINED PROJECT_VENDOR)
+set (PROJECT_VENDOR "none")
+endif (NOT DEFINED PROJECT_VENDOR)
+message ("-- Vendor: ${PROJECT_VENDOR}")
+
+if (${PROJECT_VENDOR} STREQUAL xlnx)
   add_definitions( -DXLNX_PLATFORM )
 endif()
