@@ -39,7 +39,6 @@ typedef void (*metal_log_handler)(enum metal_log_level level,
 /**
  * @brief	Set libmetal log handler.
  * @param[in]	handler	log message handler.
- * @return	0 on success, or -errno on failure.
  */
 void metal_set_log_handler(metal_log_handler handler);
 
@@ -66,7 +65,6 @@ enum metal_log_level metal_get_log_level(void);
  *		messages to stderr.
  * @param[in]	level	log message level.
  * @param[in]	format	log message format string.
- * @return	0 on success, or -errno on failure.
  */
 void metal_default_log_handler(enum metal_log_level level,
 			       const char *format, ...);
@@ -110,7 +108,5 @@ void metal_default_log_handler(enum metal_log_level level,
 #ifdef __cplusplus
 }
 #endif
-
-#include <metal/system/@PROJECT_SYSTEM@/log.h>
 
 #endif /* __METAL_METAL_LOG__H__ */
