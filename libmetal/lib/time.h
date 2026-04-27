@@ -4,7 +4,7 @@
  * SPDX-License-Identifier: BSD-3-Clause
  */
 
-/*
+/**
  * @file	time.h
  * @brief	Time primitives for libmetal.
  */
@@ -19,7 +19,7 @@
 extern "C" {
 #endif
 
-/** \defgroup time TIME Interfaces
+/** \defgroup time Time Interfaces
  *  @{
  */
 

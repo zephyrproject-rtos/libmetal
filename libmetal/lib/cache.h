@@ -4,7 +4,7 @@
  * SPDX-License-Identifier: BSD-3-Clause
  */
 
-/*
+/**
  * @file	cache.h
  * @brief	CACHE operation primitives for libmetal.
  */
@@ -18,7 +18,7 @@
 extern "C" {
 #endif
 
-/** \defgroup cache CACHE Interfaces
+/** \defgroup cache Cache Interfaces
  *  @{
  */
 

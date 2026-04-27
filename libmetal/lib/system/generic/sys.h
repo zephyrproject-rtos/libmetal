@@ -4,7 +4,7 @@
  * SPDX-License-Identifier: BSD-3-Clause
  */
 
-/*
+/**
  * @file	generic/sys.h
  * @brief	Generic system primitives for libmetal.
  */
@@ -24,7 +24,6 @@
 #include <stdarg.h>
 #include <string.h>
 
-#include "./@PROJECT_MACHINE@/sys.h"
 #ifdef __cplusplus
 extern "C" {
 #endif
@@ -53,6 +52,20 @@ void sys_irq_restore_enable(unsigned int flags);
  * @brief disable all interrupts
  */
 unsigned int sys_irq_save_disable(void);
+
+/**
+ * @brief Enable interruptidentified by the "vector" ID
+ *
+ * External function to define in the machine
+ */
+void sys_irq_enable(unsigned int vector);
+
+/**
+ * @brief Disable interrupt identified by the "vector" IDr
+ *
+ * External function to define in the machine
+ */
+void sys_irq_disable(unsigned int vector);
 
 #endif /* METAL_INTERNAL */
 

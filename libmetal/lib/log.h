@@ -4,7 +4,7 @@
  * SPDX-License-Identifier: BSD-3-Clause
  */
 
-/*
+/**
  * @file	log.h
  * @brief	Logging support for libmetal.
  */
@@ -16,7 +16,7 @@
 extern "C" {
 #endif
 
-/** \defgroup logging Library Logging Interfaces
+/** \defgroup logging Logging Interfaces
  *  @{
  */
 
