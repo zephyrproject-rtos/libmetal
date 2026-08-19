@@ -10,11 +10,10 @@ set(WITH_ZEPHYR_LIB 1)
 set(WITH_DOC OFF CACHE BOOL "" FORCE)
 set(WITH_DEFAULT_LOGGER OFF CACHE BOOL "" FORCE)
 
-if("${CMAKE_SYSTEM_PROCESSOR}" STREQUAL "posix")
-	# When building Zephyr for the POSIX architecture
-	# CMAKE_SYSTEM_PROCESSOR is set to POSIX. We need
-	# to set it instead to "hosted" which is what the
-	# libmetal build specs for such a target.
+if(CONFIG_ARCH_POSIX)
+	# When building Zephyr for the POSIX architecture,
+	# we need to set CMAKE_SYSTEM_PROCESSOR to "hosted" which is
+	# what the libmetal build expects for such a target.
 	set(CMAKE_SYSTEM_PROCESSOR "hosted")
 endif()
 
