@@ -10,7 +10,7 @@
  */
 
 #ifndef __METAL_IRQ__H__
-#error "Include metal/irq.h instead of metal/linux/irq.h"
+#error "Do not include this file directly, include <metal/irq.h> instead"
 #endif
 
 #ifndef __METAL_LINUX_IRQ__H__
@@ -28,6 +28,33 @@
  * @param[in]	irq interrupt id
  */
 void metal_linux_irq_register_dev(struct metal_device *dev, int irq);
+
+/**
+ * @brief	Unregister the metal device associated with a Linux IRQ.
+ *
+ * Metal Linux internal function to clear device bookkeeping for an IRQ. The
+ * IRQ consumer must disable the IRQ before unregistering the device.
+ *
+ * @param[in]	irq interrupt id
+ * @return	0 on success, or -errno on error.
+ */
+int metal_linux_irq_unregister_dev(int irq);
+
+/**
+ * @brief	Get the metal device associated with a Linux IRQ.
+ *
+ * @param[in]	irq interrupt id
+ * @return	Registered metal device, or NULL if none is registered.
+ */
+struct metal_device *metal_linux_irq_get_dev(int irq);
+
+/**
+ * @brief	Check whether a Linux IRQ is enabled.
+ *
+ * @param[in]	irq interrupt id
+ * @return	1 if the IRQ is enabled, or 0 otherwise.
+ */
+int metal_linux_irq_is_enabled(int irq);
 
 #endif /* METAL_INTERNAL */
 #define __METAL_LINUX_IRQ__H__
