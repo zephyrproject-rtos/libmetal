@@ -186,8 +186,8 @@ static void *metal_linux_irq_handling(void *args)
 				int fd;
 
 				fd = pfds[i].fd;
-				dev = irqs_devs[fd];
 				metal_mutex_acquire(&irq_lock);
+				dev = irqs_devs[fd];
 				if (metal_irq_handle(&irqs[fd], fd)
 				    == METAL_IRQ_HANDLED)
 					irq_handled = 1;
@@ -266,10 +266,64 @@ void metal_linux_irq_shutdown(void)
 
 void metal_linux_irq_register_dev(struct metal_device *dev, int irq)
 {
-	if (irq > MAX_IRQS) {
+	if (irq < 0 || irq >= MAX_IRQS) {
 		metal_log(METAL_LOG_ERROR,
 			  "Failed to register device to irq %d\n", irq);
 		return;
 	}
+	metal_mutex_acquire(&irq_lock);
 	irqs_devs[irq] = dev;
+	metal_mutex_release(&irq_lock);
+}
+
+int metal_linux_irq_unregister_dev(int irq)
+{
+	int offset;
+
+	if (irq < linux_irq_cntr.irq_base ||
+	    irq >= linux_irq_cntr.irq_base + linux_irq_cntr.irq_num) {
+		metal_log(METAL_LOG_ERROR,
+			  "Failed to unregister device from irq %d\n", irq);
+		return -EINVAL;
+	}
+
+	offset = irq - linux_irq_cntr.irq_base;
+	metal_mutex_acquire(&irq_lock);
+	/*
+	 * Unregister only detaches the device association. The IRQ handler and
+	 * enabled state remain owned by metal_irq_disable()/unregister().
+	 */
+	if (metal_bitmap_is_bit_set(irqs_enabled, offset)) {
+		metal_mutex_release(&irq_lock);
+		return -EINVAL;
+	}
+	irqs_devs[irq] = NULL;
+	metal_mutex_release(&irq_lock);
+
+	return 0;
+}
+
+struct metal_device *metal_linux_irq_get_dev(int irq)
+{
+	struct metal_device *dev;
+
+	if (irq < linux_irq_cntr.irq_base ||
+	    irq >= linux_irq_cntr.irq_base + linux_irq_cntr.irq_num)
+		return NULL;
+
+	metal_mutex_acquire(&irq_lock);
+	dev = irqs_devs[irq];
+	metal_mutex_release(&irq_lock);
+
+	return dev;
+}
+
+int metal_linux_irq_is_enabled(int irq)
+{
+	if (irq < linux_irq_cntr.irq_base ||
+	    irq >= linux_irq_cntr.irq_base + linux_irq_cntr.irq_num)
+		return 0;
+
+	return metal_bitmap_is_bit_set(irqs_enabled,
+				       irq - linux_irq_cntr.irq_base);
 }
